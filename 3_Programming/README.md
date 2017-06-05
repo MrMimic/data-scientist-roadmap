@@ -17,19 +17,6 @@ Most of informatics systems already support Python, without installing anything.
 * Open a terminal and go to the directory containing the python file
 * _python file.py_ to run with Python2 or _python3 file.py_ with Python3
 
-### Install a library
-
-Python actually has two mainly used distributions. Python2 and python3.
-
-You can install a library with [pip](https://pypi.python.org/pypi/pip?).
-
-	# __python2__ 
-	sudo pip install [PCKG_NAME]
-	# __python3__ 
-	sudo pip3 install [PCKG_NAME]
-
-
-
 ## 2_ Working in excel
 
 ## 3_ R setup / R studio
@@ -64,3 +51,59 @@ This interface is divided in 4 main areas :
 * The bottom left is the console to instant-execute some lines of codes
 * The top right is showing your environment (variables, history, ...)
 * The bottom right show figures you plotted, packages, help ... The result of code execution
+
+## 4_ R basics
+
+## 5_ Expressions
+
+## 6_ Variables
+
+## 7_ IBM SPSS
+
+## 8_ Rapid Miner
+
+## 9_ Vectors
+
+## 10_ Matrices
+
+## 11_ Arrays
+
+## 12_ Factors
+
+## 13_ Lists
+
+## 14_ Data frames
+
+## 15_ Reading CSV data
+
+## 16_ Reading raw data
+
+## 17_ Subsetting data
+
+## 18_ Manipulate data frames
+
+## 19_ Functions
+
+## 20_ Factor analysis
+
+## 21_ Install PKGS
+
+Python actually has two mainly used distributions. Python2 and python3.
+
+### Install pip
+
+Pip is a library manager for Python. Thus, you can easily install most of the packages with a one-line command. To install pip, just go to a terminal and do:
+	
+	# __python2__
+	sudo apt-get install python-pip
+	# __python3__
+	sudo apt-get install python3-pip
+	
+You can then install a library with [pip](https://pypi.python.org/pypi/pip?) via a terminal doing:
+
+	# __python2__ 
+	sudo pip install [PCKG_NAME]
+	# __python3__ 
+	sudo pip3 install [PCKG_NAME]
+
+You also can install it directly from the core (see 21_install_pkgs.py)
