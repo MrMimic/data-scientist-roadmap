@@ -1,19 +1,34 @@
 # data-scientist-roadmap
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 1_ Python Basics
 
-****
+### About
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+Python is a high-level programming langage. I can be used in a wide range of works.
 
-****
+Commonly used in data-science, [Pytho](https://www.python.org/)  has a huge set of libraries, helpful to quickly do something.
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+Most of informatics systems already support Python, without installing anything.
 
-## Rules
+### Execute a script
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+* Download the .py file on your computer
+* Make it executable (_chmod +x file.py_ on Linux)
+* Open a terminal and go to the directory containing the python file
+* _python file.py_ to run with Python2 or _python3 file.py_ with Python3
+
+### Install a library
+
+Python actually has two mainly used distributions. Python2 and python3.
+
+You can install a library with [pip](https://pypi.python.org/pypi/pip?).
+
+__python2__ : sudo pip install [PCKG_NAME]
+
+__python3__ : sudo pip3 install [PCKG_NAME]
+
+
+
+## 2_ Working in excel
+
+## 3_ R setup / R studio
