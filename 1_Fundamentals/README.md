@@ -11,7 +11,7 @@ It can be used in a wide range of possibilities :
 * Extract information in a text (email, phone number, etc)
 * List files with the .txt extension ..
 
-http://regexr.com/ is a good website for experimenting on Regexs.
+http://regexr.com/ is a good website for experimenting on Regex.
 
 ### Utilisation
 
