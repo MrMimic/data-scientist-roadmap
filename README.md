@@ -8,6 +8,12 @@ I just found this data science skills roadmap, drew by [Swami Chandrasekaran](ht
 
 ****
 
-Jobs linked to data science are becoming more and more popular. A bunch of tutorials could easily complete this roadmap, helping whoever wants to start learning about data science.
+Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
 
-Feel free to fork this repository and pull requests.
+## Rules
+
+* Feel free to fork this repository and pull requests.
+* Always comment your code.
+* Please respect topology for filenames.
+* There's one README for each directory, working like a course.
+* Also, could be great to share useful links in README.
