@@ -4,7 +4,7 @@
 
 ### About
 
-__Reg__ular __ex__pressions (__regex__) are commonly used in informatics.
+__ Reg __ ular __ ex __ pressions (__regex__) are commonly used in informatics.
 
 It can be used in a wide range of possibilities :
 * Text replacing
