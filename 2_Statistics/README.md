@@ -1,19 +1,59 @@
-# data-scientist-roadmap
+# 2_ Statistics
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 1_ Pick a dataset
 
-****
+## 2_ Descriptive statistics
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+## 3_ Exploratory data analysis
 
-****
+## 4_ Histograms
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+## 5_ Percentiles & outliers
 
-## Rules
+## 6_ Probability theory
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+## 7_ Bayes theorem
+
+## 8_ Random variables
+
+## 9_ Cumul Dist Fn (CDF)
+
+## 10_ Continuous distributions
+
+## 11_ Skewness
+
+## 12_ ANOVA
+
+## 13_ Prob Den Fn (PDF)
+
+## 14_ Central Limit theorem
+
+## 15_ Monte Carlo method
+
+## 16_ Hypothesis Testing
+
+## 17_ p-Value
+
+## 18_ Chi2 test
+
+## 19_ Estimation
+
+## 20_ Confid Int (CI)
+
+## 21_ MLE
+
+## 22_ Kernel Density estimate
+
+## 23_ Regression
+
+## 24_ Covariance
+
+## 25_ Correlation
+
+## 26_ Pearson coeff
+
+## 27_ Causation
+
+## 28_ Least2-fit
+
+## 29_ Euclidian Distance
