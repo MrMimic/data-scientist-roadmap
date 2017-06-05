@@ -1,19 +1,41 @@
-# data-scientist-roadmap
+# 7_ Big Data
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 1_ Map Reduc fundamentals
 
-****
+## 2_ Hadoop Components
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+## 3_ HDFS
 
-****
+## 4_ Data replications Principles
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+## 5_ Setup Hadoop
 
-## Rules
+## 6_ Name & data nodes
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+## 7_ Job & task tracker
+
+## 8_ M/R programming
+
+## 9_ Sqop: Loading data in HDFS
+
+## 10_ Flume, Scribe
+
+## 11_ SQL with Pig
+
+## 12_ DWH with Hive
+
+## 13_ Scribe, Chukwa for Weblog
+
+## 14_ Using Mahout
+
+## 15_ Zookeeper Avro
+
+## 16_ Storm: Hadoop Realtime
+
+## 17_ Rhadoop, RHIPE
+
+## 18_ RMR
+
+## 19_ Cassandra
+
+## 20_ MongoDB, Neo4j
