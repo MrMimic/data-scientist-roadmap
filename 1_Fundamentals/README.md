@@ -1,4 +1,4 @@
-# 1\_ Fundamentals
+# 1 Fundamentals
 
 ## 17_ Regex
 
