@@ -1,19 +1,31 @@
-# data-scientist-roadmap
+# 5_ Text Mining
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 1_ Corpus
 
-****
+## 2_ Named Entity Recognition
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+## 3_ Text Analysis
 
-****
+## 4_ UIMA
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+## 5_ Term Document matrix
 
-## Rules
+## 6_ Term frequency and Weight
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+## 7_ Support Vector Machines (SVM)
+
+## 8_ Association rules
+
+## 9_ Market based analysis
+
+## 10_ Feature extraction
+
+## 11_ Using mahout
+
+## 12_ Using Weka
+
+## 13_ Using NLTK
+
+## 14_ Classify text
+
+## 15_ Vocabulary mapping
