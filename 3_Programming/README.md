@@ -90,7 +90,10 @@ To __open a CSV file__ in Python, just open the file as usual :
 
 Most of the time, you will parse this file line by line and do whatever you want on this line. If you want to store data to use them later, build lists or dictionnaries.
 
+To read such a file row by row, you can use :
 
+* Python [library csv](https://docs.python.org/3/library/csv.html)
+* Python [function open](https://docs.python.org/2/library/functions.html#open)
 
 ## 16_ Reading raw data
 
