@@ -4,7 +4,7 @@ I just found this data science skills roadmap, drew by [Swami Chandrasekaran](ht
 
 ****
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+![roadmap-picture](http://nirvacana.com/thoughts/wp-content/uploads/2013/07/RoadToDataScientist1.png)
 
 ****
 
