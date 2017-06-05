@@ -1,6 +1,38 @@
 # 1_ Fundamentals
 
-## 17\_ Regex
+
+## 1_ Matrices & Algebra fundamentals
+
+## 2_ Hash function, binary tree, O(n)
+
+## 3_ Relational algebra, DB basics
+
+## 4_ Inner, Outer, Cross, theta-join
+
+## 5_ CAP theorem
+
+## 6_ Tabular data
+
+## 7_ Entropy
+
+## 8_ Data frales & series
+
+## 9_ Sharding
+
+## 10_ OLAP
+
+## 11_ Multidimensional Data model
+
+## 12_ ETL
+
+## 13_ Reporting vs BI vs Analytics
+
+## 14_ JSON and XML
+
+## 15_ NoSQL
+
+## 16_ Regex
+
 
 ### About
 
@@ -18,4 +50,9 @@ http://regexr.com/ is a good website for experimenting on Regex.
 To use them in [Python](https://docs.python.org/3/library/re.html), just import:
 
     import re
-  
+
+## 17_ Vendor landscape
+
+## 18_ Env Setup
+
+
