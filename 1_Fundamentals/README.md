@@ -13,9 +13,17 @@
 
 ## 6_ Tabular data
 
+Tabular data are __opposed to relational__ data, like SQL database.
+
+In tabular data, __everything is arranged in columns and rows__. Every row have the same number of column (except for missing value, which could be substituted by "N/A".
+
+The __first line__ of tabular data is most of the time a __header__, describing the content of each column.
+
+The most used format of tabular data in data science is __CSV___. Every column is surrounded by a character (a tabulation, a coma ..), delimiting this column from its two neighbours.
+
 ## 7_ Entropy
 
-## 8_ Data frales & series
+## 8_ Data frames & series
 
 ## 9_ Sharding
 
