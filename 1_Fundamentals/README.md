@@ -1,19 +1,21 @@
-# data-scientist-roadmap
+# 1_ Fundamentals
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 17\_ Regex
 
-****
+### About
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+__Reg__ ular __ex__ pressions (__regex__) are commonly used in informatics.
 
-****
+It can be used in a wide range of possibilities :
+* Text replacing
+* Extract information in a text (email, phone number, etc)
+* List files with the .txt extension ..
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+http://regexr.com/ is a good website for experimenting on Regex.
 
-## Rules
+### Utilisation
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+To use them in [Python](https://docs.python.org/3/library/re.html), just import:
+
+  import re
+  

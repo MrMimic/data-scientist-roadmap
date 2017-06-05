@@ -1,4 +1,4 @@
-# data-scientist-roadmap
+# 3_ Programming
 
 ## 1_ Python Basics
 
@@ -23,9 +23,10 @@ Python actually has two mainly used distributions. Python2 and python3.
 
 You can install a library with [pip](https://pypi.python.org/pypi/pip?).
 
-__python2__ : sudo pip install [PCKG_NAME]
-
-__python3__ : sudo pip3 install [PCKG_NAME]
+	# __python2__ 
+	sudo pip install [PCKG_NAME]
+	# __python3__ 
+	sudo pip3 install [PCKG_NAME]
 
 
 
@@ -57,7 +58,7 @@ Rstudio is a graphical interface for R. It is available for free on [their websi
 
 This interface is divided in 4 main areas :
 
-[rstudio](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/static/img/rstudio.png)
+![rstudio](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/static/img/rstudio.png)
 
 * The top left is the script you are working on (highlight code you want to execute and press Ctrl + Enter)
 * The bottom left is the console to instant-execute some lines of codes
