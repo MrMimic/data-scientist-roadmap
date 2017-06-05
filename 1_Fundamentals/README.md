@@ -1,8 +1,8 @@
-# 1 Fundamentals
+# 1_ Fundamentals
 
 ## 17\_ Regex
 
-### About
+### About
 
 __Reg__ular __ex__pressions (__regex__) are commonly used in informatics.
 
