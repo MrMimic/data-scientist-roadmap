@@ -8,7 +8,7 @@ Machine Learning is part of the Artificial Intelligences study. It concerns the 
 
 ### Utilisation examples
 
-* Computer vision ([Definition](http://www.bmva.org/visionoverview)
+* Computer vision ([Definition](http://www.bmva.org/visionoverview))
 * Search engines
 * Financial analysis
 * Documents classification
