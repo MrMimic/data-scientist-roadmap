@@ -23,9 +23,10 @@ Python actually has two mainly used distributions. Python2 and python3.
 
 You can install a library with [pip](https://pypi.python.org/pypi/pip?).
 
-__python2__ : sudo pip install [PCKG_NAME]
-
-__python3__ : sudo pip3 install [PCKG_NAME]
+	# __python2__ 
+	sudo pip install [PCKG_NAME]
+	# __python3__ 
+	sudo pip3 install [PCKG_NAME]
 
 
 
