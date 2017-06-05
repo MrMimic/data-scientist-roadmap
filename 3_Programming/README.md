@@ -10,6 +10,13 @@ Commonly used in data-science, [Pytho](https://www.python.org/)  has a huge set 
 
 Most of informatics systems already support Python, without installing anything.
 
+### Execute a script
+
+* Download the .py file on your computer
+* Make it executable (_chmod +x file.py_ on Linux)
+* Open a terminal and go to the directory containing the python file
+* _python file.py_ to run with Python2 or _python3 file.py_ with Python3
+
 ### Install a library
 
 Python actually has two mainly used distributions. Python2 and python3.
