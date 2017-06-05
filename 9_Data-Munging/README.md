@@ -1,19 +1,23 @@
-# data-scientist-roadmap
+# 9_ Data Munging
 
-I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
+## 1_ Dim. and num. reduction
 
-****
+## 2_ Normalization
 
-![roadmap](https://i2.wp.com/tadadata.fr/wp-content/uploads/2017/05/roaddatascience.png)
+## 3_ Data scrubbing
 
-****
+## 4_ Handling missing Values
 
-Jobs linked to __data science__ are becoming __more and more popular__. A __bunch of tutorials__ could easily complete this roadmap, helping whoever wants to __start learning stuff about data science__.
+## 5_ Unbiased estimators
 
-## Rules
+## 6_ Binning Sparse Values
 
-* Feel free to fork this repository and pull requests.
-* Always comment your code.
-* Please respect topology for filenames.
-* There's one README for each directory, working like a course.
-* Also, could be great to share useful links in README.
+## 7_ Feature extraction
+
+## 8_ Denoising
+
+## 9_ Sampling
+
+## 10_ Stratified sampling
+
+## 11_ PCA
