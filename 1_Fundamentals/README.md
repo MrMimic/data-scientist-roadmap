@@ -17,5 +17,5 @@ http://regexr.com/ is a good website for experimenting on Regex.
 
 To use them in [Python](https://docs.python.org/3/library/re.html), just import:
 
-  import re
+    import re
   
