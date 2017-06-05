@@ -57,7 +57,7 @@ Rstudio is a graphical interface for R. It is available for free on [their websi
 
 This interface is divided in 4 main areas :
 
-[rstudio](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/static/img/rstudio.png)
+![rstudio](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/static/img/rstudio.png)
 
 * The top left is the script you are working on (highlight code you want to execute and press Ctrl + Enter)
 * The bottom left is the console to instant-execute some lines of codes
