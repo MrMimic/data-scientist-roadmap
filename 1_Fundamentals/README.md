@@ -76,6 +76,53 @@ In SQL language, a natural junction between two tables will be done if :
 
 ## 4_ Inner, Outer, Cross, theta-join
 
+### Inner join
+
+The INNER JOIN keyword selects records that have matching values in both tables.
+
+#### Request
+
+      SELECT column_name(s)
+      FROM table1
+      INNER JOIN table2 ON table1.column_name = table2.column_name;
+
+![inner-join-image](https://www.w3schools.com/sql/img_innerjoin.gif)
+
+### Outer join
+
+The FULL OUTER JOIN keyword return all records when there is a match in either left (table1) or right (table2) table records.
+
+#### Request
+
+      SELECT column_name(s)
+      FROM table1
+      FULL OUTER JOIN table2 ON table1.column_name = table2.column_name; 
+
+![outer-join-image](https://www.w3schools.com/sql/img_fulljoin.gif)
+
+### Left join
+
+The LEFT JOIN keyword returns all records from the left table (table1), and the matched records from the right table (table2). The result is NULL from the right side, if there is no match.
+
+#### Request
+
+      SELECT column_name(s)
+      FROM table1
+      LEFT JOIN table2 ON table1.column_name = table2.column_name;
+
+![left-join-image](https://www.w3schools.com/sql/img_leftjoin.gif)
+
+### Right join
+
+The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). The result is NULL from the left side, when there is no match.
+#### Request
+
+      SELECT column_name(s)
+      FROM table1
+      RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+
+![left-join-image](https://www.w3schools.com/sql/img_rightjoin.gif)
+
 ## 5_ CAP theorem
 
 ## 6_ Tabular data
