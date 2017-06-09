@@ -16,6 +16,18 @@ For a data set, the terms arithmetic mean, mathematical expectation, and sometim
 
 The median is the value __separating the higher half of a data sample, a population, or a probability distribution, from the lower half__. In simple terms, it may be thought of as the "middle" value of a data set.
 
+### Descriptive statistics in Python
+
+[Numpy](http://www.numpy.org/) is a python library widely used for statistical analysis.
+
+#### Installation
+
+    sudo pip3 install numpy
+
+#### Utilization
+    
+    import numpy
+
 ## 3_ Exploratory data analysis
 
 ## 4_ Histograms
