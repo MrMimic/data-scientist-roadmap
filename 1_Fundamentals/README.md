@@ -64,7 +64,7 @@ In SQL language, a natural junction between two tables will be done if :
     * FLOAT (floating point numeric data)
     * VARCHAR (long character chain)
     
-#### SQL request
+#### mySQL request
 
         SELECT <COLUMNS>
         FROM <TABLE_1>
