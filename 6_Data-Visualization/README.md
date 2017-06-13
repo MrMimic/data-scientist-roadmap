@@ -2,9 +2,35 @@
 
 ## 1_ Data exploration in R
 
+In mathematics, the graph of a function f is the collection of all ordered pairs (x, f(x)). If the function input x is a scalar, the graph is a two-dimensional graph, and for a continuous function is a curve. If the function input x is an ordered pair (x1, x2) of real numbers, the graph is the collection of all ordered triples (x1, x2, f(x1, x2)), and for a continuous function is a surface.
+
 ## 2_ Uni, bi and multivariate viz
 
+### Univariate
+
+The term is commonly used in statistics to distinguish a distribution of one variable from a distribution of several variables, although it can be applied in other ways as well. For example, univariate data are composed of a single scalar component. In time series analysis, the term is applied with a whole time series as the object referred to: thus a univariate time series refers to the set of values over time of a single quantity.
+
+### Bivariate
+
+Bivariate analysis is one of the simplest forms of quantitative (statistical) analysis.[1] It involves the analysis of two variables (often denoted as X, Y), for the purpose of determining the empirical relationship between them.
+
+### Multivariate
+
+Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest.
+
 ## 3_ ggplot2
+
+### About
+
+ggplot2 is a plotting system for R, based on the grammar of graphics, which tries to take the good parts of base and lattice graphics and none of the bad parts. It takes care of many of the fiddly details that make plotting a hassle (like drawing legends) as well as providing a powerful model of graphics that makes it easy to produce complex multi-layered graphics.
+
+[http://ggplot2.org/](http://ggplot2.org/)
+
+### Documentation
+
+### Examples
+
+[http://r4stats.com/examples/graphics-ggplot2/](http://r4stats.com/examples/graphics-ggplot2/)
 
 ## 4_ Histogram and pie (Uni)
 
@@ -13,8 +39,6 @@
 Histograms and pie are 2 types of graphes used to visualize frequencies. 
 
 Histogram is showing the distribution of these frequencies over classes, and pie the relative proportion of this frequencies in a 100% circle.
-
-
 
 ## 5_ Tree & tree map
 
