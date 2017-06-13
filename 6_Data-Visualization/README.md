@@ -1,5 +1,9 @@
 # 6_ Data Visualization
 
+Open .R scripts in Rstudio for line-by-line execution.
+
+See [10_ Toolbox/3_ R, Rstudio, Rattle](https://github.com/MrMimic/data-scientist-roadmap/tree/master/10_Toolbox#3_-r-rstudio-rattle) for installation
+
 ## 1_ Data exploration in R
 
 In mathematics, the graph of a function f is the collection of all ordered pairs (x, f(x)). If the function input x is a scalar, the graph is a two-dimensional graph, and for a continuous function is a curve. If the function input x is an ordered pair (x1, x2) of real numbers, the graph is the collection of all ordered triples (x1, x2, f(x1, x2)), and for a continuous function is a surface.
