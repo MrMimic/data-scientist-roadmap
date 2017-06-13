@@ -2,7 +2,7 @@
 
 Open .R scripts in Rstudio for line-by-line execution.
 
-See [10_ Toolbox/3_ R, Rstudio, Rattle](https://github.com/MrMimic/data-scientist-roadmap/tree/master/10_Toolbox#3_-r-rstudio-rattle) for installation
+See [10_ Toolbox/3_ R, Rstudio, Rattle](https://github.com/MrMimic/data-scientist-roadmap/tree/master/10_Toolbox#3_-r-rstudio-rattle) for installation.
 
 ## 1_ Data exploration in R
 
