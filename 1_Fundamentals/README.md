@@ -125,6 +125,14 @@ The RIGHT JOIN keyword returns all records from the right table (table2), and th
 
 ## 5_ CAP theorem
 
+It is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
+ 
+* Every read receives the most recent write or an error.
+* Every request receives a (non-error) response – without guarantee that it contains the most recent write.
+* The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
+
+In other words, the CAP Theorem states that in the presence of a network partition, one has to choose between consistency and availability. Note that consistency as defined in the CAP Theorem is quite different from the consistency guaranteed in ACID database transactions.
+
 ## 6_ Tabular data
 
 Tabular data are __opposed to relational__ data, like SQL database.
@@ -150,6 +158,70 @@ The most used format of tabular data in data science is __CSV___. Every column i
 ## 13_ Reporting vs BI vs Analytics
 
 ## 14_ JSON and XML
+
+### JSON
+
+JSON is a language-independent data format. Example describing a person:
+	
+	{
+	  "firstName": "John",
+	  "lastName": "Smith",
+	  "isAlive": true,
+	  "age": 25,
+	  "address": {
+	    "streetAddress": "21 2nd Street",
+	    "city": "New York",
+	    "state": "NY",
+	    "postalCode": "10021-3100"
+	  },
+	  "phoneNumbers": [
+	    {
+	      "type": "home",
+	      "number": "212 555-1234"
+	    },
+	    {
+	      "type": "office",
+	      "number": "646 555-4567"
+	    },
+	    {
+	      "type": "mobile",
+	      "number": "123 456-7890"
+	    }
+	  ],
+	  "children": [],
+	  "spouse": null
+	}
+
+## XML
+
+Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+ 
+ 	<CATALOG>
+	  <PLANT>
+	    <COMMON>Bloodroot</COMMON>
+	    <BOTANICAL>Sanguinaria canadensis</BOTANICAL>
+	    <ZONE>4</ZONE>
+	    <LIGHT>Mostly Shady</LIGHT>
+	    <PRICE>$2.44</PRICE>
+	    <AVAILABILITY>031599</AVAILABILITY>
+	  </PLANT>
+	  <PLANT>
+	    <COMMON>Columbine</COMMON>
+	    <BOTANICAL>Aquilegia canadensis</BOTANICAL>
+	    <ZONE>3</ZONE>
+	    <LIGHT>Mostly Shady</LIGHT>
+	    <PRICE>$9.37</PRICE>
+	    <AVAILABILITY>030699</AVAILABILITY>
+	  </PLANT>
+	  <PLANT>
+	    <COMMON>Marsh Marigold</COMMON>
+	    <BOTANICAL>Caltha palustris</BOTANICAL>
+	    <ZONE>4</ZONE>
+	    <LIGHT>Mostly Sunny</LIGHT>
+	    <PRICE>$6.81</PRICE>
+	    <AVAILABILITY>051799</AVAILABILITY>
+	  </PLANT>
+	</CATALOG>
 
 ## 15_ NoSQL
 
