@@ -145,11 +145,25 @@ The most used format of tabular data in data science is __CSV___. Every column i
 
 ## 7_ Entropy
 
+Entropy is a __measure of uncertainty__. High entropy means the data has high variance and thus contains a lot of information and/or noise.
+
+For instance, __a constant function where f(x) = 4 for all x has no entropy and is easily predictable__, has little information, has no noise and can be succinctly represented . Similarly, f(x) = ~4 has some entropy while f(x) = random number is very high entropy due to noise.
+
 ## 8_ Data frames & series
+
+A data frame is used for storing data tables. It is a list of vectors of equal length.
+
+A series is a series of data points ordered.
 
 ## 9_ Sharding
 
 ## 10_ OLAP
+
+Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing. 
+
+OLAP is part of the __broader category of business intelligence__, which also encompasses relational database, report writing and data mining. Typical applications of OLAP include ___business reporting for sales, marketing, management reporting, business process management (BPM), budgeting and forecasting, financial reporting and similar areas, with new applications coming up, such as agriculture__.
+
+The term OLAP was created as a slight modification of the traditional database term online transaction processing (OLTP).
 
 ## 11_ Multidimensional Data model
 
@@ -225,8 +239,13 @@ Extensible Markup Language (XML) is a markup language that defines a set of rule
 
 ## 15_ NoSQL
 
-## 16_ Regex
+noSQL is oppsed to relationnal databases (stand for __N__ot __O__nly __SQL__). Data are not structured and there's no notion of keys between tables.
 
+Any kind of data can be stored in a noSQL database (JSON, CSV, ...) whithout thinking about a complex relationnal scheme.
+
+__Commonly used noSQL stacks__: Cassandra, MongoDB, Redis, Oracle noSQL ...
+
+## 16_ Regex
 
 ### About
 
