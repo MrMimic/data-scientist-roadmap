@@ -4,7 +4,7 @@
 import numpy as np
 
 
-# Generate a list of 4 list of 5 random numbers
+# Generate a list of 4 list of 5 random numbers each
 list_of_lists = []
 # Loop the action 4 times
 for i in range(4):
