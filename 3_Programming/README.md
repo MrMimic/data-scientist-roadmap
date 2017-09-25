@@ -54,6 +54,8 @@ This interface is divided in 4 main areas :
 
 ## 4_ R basics
 
+See script 4_R_basics.R
+
 ## 5_ Expressions
 
 ## 6_ Variables
