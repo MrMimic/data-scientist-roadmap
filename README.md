@@ -2,6 +2,7 @@
 
 I just found this data science skills roadmap, drew by [Swami Chandrasekaran](http://nirvacana.com/thoughts/becoming-a-data-scientist/). 
 
+
 ****
 
 ![roadmap-picture](https://raw.githubusercontent.com/lujianmei/data-scientist-roadmap/zh_CN/data_sciencist.jpg)
