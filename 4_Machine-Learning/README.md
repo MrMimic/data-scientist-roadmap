@@ -21,7 +21,21 @@ Machine Learning is part of the Artificial Intelligences study. It concerns the 
 
 ## 4_ Supervised learning
 
+Supervised learning is the machine learning task of inferring a function from __labeled training data__. 
+
+The training data consist of a __set of training examples__. 
+
+In supervised learning, each example is a pair consisting of an input object (typically a vector) and a desired output value (also called the supervisory signal). 
+
+A supervised learning algorithm analyzes the training data and produces an inferred function, which can be used for mapping new examples. 
+
+__An optimal scenario will allow for the algorithm to correctly determine the class labels for unseen instances__.
+
 ## 5_ Unsupervised learning
+
+Unsupervised machine learning is the machine learning task of inferring a function to describe hidden structure __from "unlabeled" data__ (a classification or categorization is not included in the observations). 
+
+Since the examples given to the learner are unlabeled, there is no evaluation of the accuracy of the structure that is output by the relevant algorithm—which is one way of distinguishing unsupervised learning from supervised learning and reinforcement learning.
 
 ## 6_ Concepts, inputs and attributes
 
