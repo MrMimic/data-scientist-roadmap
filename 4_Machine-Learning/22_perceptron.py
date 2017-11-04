@@ -1,17 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf8
 
-# ==============================================================================
-# Title: perceptron.py
-# Description: A small perceptron coded from scratch to show how limited this algorithm is.
-# Author: Emeric Dynomant
-# Contact: emeric.dynomant@omictools.com
-# Date: 02/10/2017
-# Language release: python 3.5.2
-# ==============================================================================
-# OmicX, all rights reserved
-# https://omictools.com/
-# ==============================================================================
 
 """ IMPORTS """
 import numpy as np
