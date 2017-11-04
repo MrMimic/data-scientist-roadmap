@@ -71,6 +71,12 @@ Since the examples given to the learner are unlabeled, there is no evaluation of
 
 ## 22_ Perceptron
 
+The perceptron has been the first model described in the 50ies.
+
+This is a __binary classifier__, ie it can't separate more than 2 groups, and thoses groups have to be __linearly separable__.
+
+The perceptron __works like a biological neuron__. It calculate an activation value, and if this value if positive, it returns 1, 0 otherwise.
+
 ## 23_ Hierarchical clustering
 
 ## 24_ K-means clustering
