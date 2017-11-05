@@ -1,15 +1,15 @@
-# 1_ Fundamentals
+# 1_ 基础知识
 
 
-## 1_ Matrices & Algebra fundamentals
+## 1_ 矩阵和线代基础
 
-### About
+### 关于
 
 In mathematics, a matrix is a __rectangular array of numbers, symbols, or expressions, arranged in rows and columns__. A matrix could be reduced as a submatrix of a matrix by deleting any collection of rows and/or columns.
 
 ![matrix-image](https://upload.wikimedia.org/wikipedia/commons/b/bb/Matrix.svg)
 
-### Operations
+### 操作
 
 There are a number of basic operations that can be applied to modify matrices:
 
@@ -19,9 +19,9 @@ There are a number of basic operations that can be applied to modify matrices:
 * [Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 
-## 2_ Hash function, binary tree, O(n)
+## 2_ 哈希函数，二叉树，大0计算
 
-### Hash function
+### 哈希函数
 
 #### Definition
 
@@ -29,7 +29,7 @@ A hash function is __any function that can be used to map data of arbitrary size
 
 ![hash-image](https://upload.wikimedia.org/wikipedia/commons/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg)
 
-### Binary tree
+### 二叉树
 
 #### Definition
 
@@ -37,13 +37,13 @@ In computer science, a binary tree is __a tree data structure in which each node
 
 ![binary-tree-image](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)
 
-### O(n)
+### 大0计算
 
 #### Definition
 
 In computer science, big O notation is used to __classify algorithms according to how their running time or space requirements grow as the input size grows__. In analytic number theory, big O notation is often used to __express a bound on the difference between an arithmetical function and a better understood approximation__.
 
-## 3_ Relational algebra, DB basics
+## 3_ 关系代数，数据库基础
 
 ### Definition
 
@@ -74,7 +74,7 @@ In SQL language, a natural junction between two tables will be done if :
         FROM <TABLE_1>, <TABLE_2>
         WHERE TABLE_1.ID = TABLE_2.ID
 
-## 4_ Inner, Outer, Cross, theta-join
+## 4_ 内联接、外联接、交叉联接、0联接
 
 ### Inner join
 
@@ -123,7 +123,7 @@ The RIGHT JOIN keyword returns all records from the right table (table2), and th
 
 ![left-join-image](https://www.w3schools.com/sql/img_rightjoin.gif)
 
-## 5_ CAP theorem
+## 5_ CAP定理（一致、可用、分区容错）
 
 It is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
  
@@ -133,7 +133,7 @@ It is impossible for a distributed data store to simultaneously provide more tha
 
 In other words, the CAP Theorem states that in the presence of a network partition, one has to choose between consistency and availability. Note that consistency as defined in the CAP Theorem is quite different from the consistency guaranteed in ACID database transactions.
 
-## 6_ Tabular data
+## 6_ 列表数据
 
 Tabular data are __opposed to relational__ data, like SQL database.
 
@@ -149,15 +149,15 @@ Entropy is a __measure of uncertainty__. High entropy means the data has high va
 
 For instance, __a constant function where f(x) = 4 for all x has no entropy and is easily predictable__, has little information, has no noise and can be succinctly represented . Similarly, f(x) = ~4 has some entropy while f(x) = random number is very high entropy due to noise.
 
-## 8_ Data frames & series
+## 8_ 数据帖和数据序列
 
 A data frame is used for storing data tables. It is a list of vectors of equal length.
 
 A series is a series of data points ordered.
 
-## 9_ Sharding
+## 9_ 数据切分（分区、分表）
 
-## 10_ OLAP
+## 10_ 联机分析处理 
 
 Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing. 
 
@@ -165,11 +165,11 @@ OLAP is part of the __broader category of business intelligence__, which also en
 
 The term OLAP was created as a slight modification of the traditional database term online transaction processing (OLTP).
 
-## 11_ Multidimensional Data model
+## 11_ 多维数据模型
 
-## 12_ ETL
+## 12_ ETL（数据抽取、转换、加载）
 
-## 13_ Reporting vs BI vs Analytics
+## 13_ 报告 Vs 商业智能 Vs 分析
 
 ## 14_ JSON and XML
 
