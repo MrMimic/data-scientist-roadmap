@@ -54,6 +54,12 @@ This interface is divided in 4 main areas :
 
 ## 4_ R basics
 
+R is an open source programming language and software environment for statistical computing and graphics that is supported by the R Foundation for Statistical Computing.
+
+The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
+
+Polls, surveys of data miners, and studies of scholarly literature databases show that R's popularity has increased substantially in recent years.
+
 ## 5_ Expressions
 
 ## 6_ Variables
@@ -75,6 +81,25 @@ This interface is divided in 4 main areas :
 ## 14_ Data frames
 
 ## 15_ Reading CSV data
+
+CSV is a format of __tabular data__ comonly used in data science. Most of structured data will come in such a format.
+
+To __open a CSV file__ in Python, just open the file as usual :
+	
+	raw_file = open('file.csv', 'r')
+	
+* 'r': Reading, no modification on the file is possible
+* 'w': Writing, every modification will erease the file 
+* 'a': Adding, every modification will be made at the end of the file
+
+### How to read it ?
+
+Most of the time, you will parse this file line by line and do whatever you want on this line. If you want to store data to use them later, build lists or dictionnaries.
+
+To read such a file row by row, you can use :
+
+* Python [library csv](https://docs.python.org/3/library/csv.html)
+* Python [function open](https://docs.python.org/2/library/functions.html#open)
 
 ## 16_ Reading raw data
 
