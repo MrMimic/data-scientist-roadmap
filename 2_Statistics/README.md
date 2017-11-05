@@ -1,7 +1,7 @@
 # 2_ Statistics
 
 
-![Statistics-101 for data noobs](https://medium.com/@debuggermalhotra/statistics-101-for-data-noobs-2e2a0e23a5dc)
+[Statistics-101 for data noobs](https://medium.com/@debuggermalhotra/statistics-101-for-data-noobs-2e2a0e23a5dc)
 
 ## 1_ Pick a dataset
 
