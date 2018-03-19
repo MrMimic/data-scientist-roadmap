@@ -14,8 +14,8 @@ For the moment, a lot is __got on wikipedia__ (except for codes, always handmade
 
 ## Rules
 
-* Feel free to fork this repository and pull requests
-* Always comment your code
-* Please respect topology for filenames
-* There's one README for each directory
-* Also, could be great to share useful links or ressources in README files
+* Feel free to fork this repository and pull requests.
+* Always comment your code.
+* Please respect topology for filenames.
+* There's one README for each directory.
+* Also, could be great to share useful links or ressources in README files.
