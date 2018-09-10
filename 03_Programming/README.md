@@ -109,6 +109,15 @@ To read such a file row by row, you can use :
 
 ## 19_ Functions
 
+A function is helpful to execute redondant actions.
+
+First, define the function:
+
+	def MyFunction(number):
+		"""This function will multiply a number by 9"""
+		number = number * 9
+		return number
+
 ## 20_ Factor analysis
 
 ## 21_ Install PKGS
