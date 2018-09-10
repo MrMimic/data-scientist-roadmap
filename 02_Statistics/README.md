@@ -5,6 +5,23 @@
 
 ## 1_ Pick a dataset
 
+### Datasets repositories
+
+#### Generalists
+
+- [KAGGLE](https://www.kaggle.com/datasets)
+- [Google](https://toolbox.google.com/datasetsearch)
+
+#### Medical
+
+- [PMC](https://www.ncbi.nlm.nih.gov/pmc/)
+
+#### Other languages
+
+##### French
+
+- [DATAGOUV](https://www.data.gouv.fr/fr/)
+
 ## 2_ Descriptive statistics
 
 ### Mean
