@@ -169,6 +169,17 @@ The term OLAP was created as a slight modification of the traditional database t
 
 ## 12_ ETL
 
+* Extract
+  * extracting the data from the multiple heterogenous source system(s)
+  * data validation to confirm whether the data pulled has the correct/expected values in a given domain
+
+* Transform
+  * extracted data is fed into a pipeline which applies multiple functions on top of data
+  * these functions intend to convert the data into the format which is accepted by the end system
+  * involves cleaning the data to remove noise, anamolies and redudant data
+* Load
+  * loads the transformed data into the end target
+
 ## 13_ Reporting vs BI vs Analytics
 
 ## 14_ JSON and XML
