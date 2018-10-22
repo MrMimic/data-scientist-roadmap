@@ -157,6 +157,24 @@ A series is a series of data points ordered.
 
 ## 9_ Sharding
 
+*Sharding* is **horizontal(row wise) database partitioning** as opposed to **vertical(column wise) partitioning** which is *Normalization*
+
+Why use Sharding?
+
+1. Database systems with large data sets or high throughput applications can challenge the capacity of a single server.
+2. Two methods to address the growth : Vertical Scaling and Horizontal Scaling
+3. Vertical Scaling
+
+    * Involves increasing the capacity of a single server
+    * But due to technological and economical restrictions, a single machine may not be sufficient for the given workload.
+
+4. Horizontal Scaling
+    * Involves dividing the dataset and load over multiple servers, adding additional servers to increase capacity as required
+    * While the overall speed or capacity of a single machine may not be high, each machine handles a subset of the overall workload, potentially providing better efficiency than a single high-speed high-capacity server. 
+    * Idea is to use concepts of Distributed systems to achieve scale
+    * But it comes with same tradeoffs of increased complexity that comes hand in hand with distributed systems.
+    * Many Database systems provide Horizontal scaling via Sharding the datasets.
+
 ## 10_ OLAP
 
 Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing. 
