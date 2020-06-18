@@ -57,6 +57,7 @@ Since the examples given to the learner are unlabeled, there is no evaluation of
 
 ## 15_ Decision tree
 
+
 ## 16_ Boosting
 
 ## 17_ Naïves Bayes classifiers
@@ -88,3 +89,4 @@ The perceptron __works like a biological neuron__. It calculate an activation va
 ## 27_ Collaborative filtering
 
 ## 28_ Tagging
+## 29_ Support Vector Machine
