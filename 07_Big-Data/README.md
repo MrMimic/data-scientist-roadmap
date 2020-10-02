@@ -1,8 +1,8 @@
 # 7_ Big Data
 
-## 1_ Map Reduc fundamentals
+## 1_ Map Reduce fundamentals
 
-## 2_ Hadoop Components
+## 2_ Hadoop Ecosystem
 
 ## 3_ HDFS
 
@@ -14,7 +14,7 @@
 
 ## 7_ Job & task tracker
 
-## 8_ M/R programming
+## 8_ M/R/SAS programming
 
 ## 9_ Sqop: Loading data in HDFS
 
@@ -30,12 +30,14 @@
 
 ## 15_ Zookeeper Avro
 
-## 16_ Storm: Hadoop Realtime
+## 16_ Lambda Architecture 
 
-## 17_ Rhadoop, RHIPE
+## 17_ Storm: Hadoop Realtime
 
-## 18_ RMR
+## 18_ Rhadoop, RHIPE
 
-## 19_ Cassandra
+## 19_ RMR
 
-## 20_ MongoDB, Neo4j
+## 20_ NoSQL Databases (MongoDB, Neo4j)
+
+## 21_ Distributed Databases and Systems (Cassandra)
