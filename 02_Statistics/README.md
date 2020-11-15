@@ -158,6 +158,32 @@ __Probability theory__ is a branch of mathematics that is associated with the co
 
 ## 7_ Bayes theorem
 
+### Conditional Probability:
+
+It is the probability of one event occurring, given that another event has already occurred. So, it gives a sense of relationship between two events and the probabilities of the occurences of those events.
+
+It is given by:
+
+__P( A | B )__ : Probability of occurence of A, after B occured.
+
+The formula is given by: 
+
+![formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/74cbddb93db29a62d522cd6ab266531ae295a0fb)
+
+So, P(A|B) is equal to Probablity of occurence of A and B, divided by Probability of occurence of B.
+
+[Guide to Conditional Probability](https://en.wikipedia.org/wiki/Conditional_probability)
+
+### Bayes Theorem
+
+Bayes theorem provides a way to calculate conditional probability. Bayes theorem is widely used in machine learning most in Bayesian Classifiers.  
+
+According to Bayes theorem the probability of A, given that B has already occurred is given by Probability of A multiplied by the probability of B given A has already occurred divided by the probability of B.
+
+__P(A|B) =  P(A).P(B|A) / P(B)__
+
+
+[Guide to Bayes Theorem](https://machinelearningmastery.com/bayes-theorem-for-machine-learning/)
 
 
 ## 8_ Random variables
