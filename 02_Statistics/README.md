@@ -217,6 +217,15 @@ Variation of central tendency measures are shown below.
 
 Data Distribution are often Skewed which may cause trouble during processing the data. __Skewed Distribution can be converted to Symmetric Distribution, taking Log of the distribution__.
 
+##### Skew Distribution
+
+![Skew](https://miro.medium.com/max/379/1*PLSczKIQRc8ZtlvHED-6mQ.png)
+
+##### Log of the Skew Distribution.
+
+![log](https://miro.medium.com/max/376/1*4GFayBYKIiqAcyI69wIFzA.png)
+
+
 [Guide to Skewness](https://en.wikipedia.org/wiki/Skewness)
 
 
