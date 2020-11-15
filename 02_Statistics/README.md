@@ -131,7 +131,7 @@ Percentiles are numberical measures in statistics, which represents how much or 
 
 For instance, if we say 70 percentile, it represents, 70% of the data in the ditribution are below the given numerical value. 
 
-[Percentiles](https://en.wikipedia.org/wiki/Percentile#:~:text=A%20percentile%20(or%20a%20centile,the%20observations%20may%20be%20found.)
+[Percentiles](https://en.wikipedia.org/wiki/Percentile#:~:text=A%20percentile%20(or%20a%20centile,the%20observations%20may%20be%20found)
 
 ### Outliers
 
