@@ -188,6 +188,15 @@ __P(A|B) =  P(A).P(B|A) / P(B)__
 
 ## 8_ Random variables
 
+Random variable are the numeric outcome of an experiment or random events. They are normally a set of values. 
+
+There are two main types of Random Variables:
+
+__Discrete Random Variables__: Such variables take only a finite number of distinct values
+
+__Continous Random Variables__: Such variables can take an infinite number of possible values.
+
+
 ## 9_ Cumul Dist Fn (CDF)
 
 ## 10_ Continuous distributions
