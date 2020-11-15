@@ -125,6 +125,22 @@ In python, __Pandas__,__Matplotlib__,__Seaborn__ can be used to create Histogram
 
 ## 5_ Percentiles & outliers
 
+### Percentiles
+
+Percentiles are numberical measures in statistics, which represents how much or what percentage of data falls below a given number or instance in a numerical data distribution. 
+
+For instance, if we say 70 percentile, it represents, 70% of the data in the ditribution are below the given numerical value. 
+
+### Outliers
+
+Outliers are data points(numerical) which have significant differences with other data points. They differ from majority of points in the distribution. Such points may cause the central measures of distribution, like mean, and median. So, they need to be detected and removed.
+
+__Box Plots__ can be used detect Outliers in the data. They can be created using __Seaborn__ library
+
+![Image_Box_Plot](https://miro.medium.com/max/612/1*105IeKBRGtyPyMy3-WQ8hw.png)
+
+
+  
 ## 6_ Probability theory
 
 ## 7_ Bayes theorem
