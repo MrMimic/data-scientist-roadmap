@@ -131,9 +131,13 @@ Percentiles are numberical measures in statistics, which represents how much or 
 
 For instance, if we say 70 percentile, it represents, 70% of the data in the ditribution are below the given numerical value. 
 
+[Percentiles](https://en.wikipedia.org/wiki/Percentile#:~:text=A%20percentile%20(or%20a%20centile,the%20observations%20may%20be%20found.)
+
 ### Outliers
 
 Outliers are data points(numerical) which have significant differences with other data points. They differ from majority of points in the distribution. Such points may cause the central measures of distribution, like mean, and median. So, they need to be detected and removed.
+
+[Outliers](https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm)
 
 __Box Plots__ can be used detect Outliers in the data. They can be created using __Seaborn__ library
 
