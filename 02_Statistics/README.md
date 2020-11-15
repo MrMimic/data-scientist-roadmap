@@ -50,6 +50,14 @@ The median is the value __separating the higher half of a data sample, a populat
 
 ## 3_ Exploratory data analysis
 
+The step includes visualization and analysis of data. 
+
+Raw data may possess improper distributions of data which may lead to issues moving forward.
+
+Again, during applications we must also know the distribution of data, for instance, the fact whether the data is linear or spirally distributed.
+
+[Guide to EDA in Python](https://towardsdatascience.com/data-preprocessing-and-interpreting-results-the-heart-of-machine-learning-part-1-eda-49ce99e36655)
+
 ## 4_ Histograms
 
 ## 5_ Percentiles & outliers
