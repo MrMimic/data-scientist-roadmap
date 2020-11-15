@@ -214,6 +214,8 @@ __Negative skew__: Distribution Concentrated in the right, left tail is longer.
 __Positive skew__: Distribution Concentrated in the left, right tail is longer.
 
 Variation of central tendency measures are shown below.
+
+
 ![cet](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Relationship_between_mean_and_median_under_different_skewness.png/434px-Relationship_between_mean_and_median_under_different_skewness.png)
 
 Data Distribution are often Skewed which may cause trouble during processing the data. __Skewed Distribution can be converted to Symmetric Distribution, taking Log of the distribution__.
