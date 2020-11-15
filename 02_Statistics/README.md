@@ -121,7 +121,7 @@ Histograms are representation of distribution of numerical data. The procedure c
 
 ![plot](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Example_histogram.png/220px-Example_histogram.png)
 
-
+In python, __Pandas__,__Matplotlib__,__Seaborn__ can be used to create Histograms.
 
 ## 5_ Percentiles & outliers
 
