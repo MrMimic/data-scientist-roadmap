@@ -142,12 +142,23 @@ Outliers are data points(numerical) which have significant differences with othe
 __Box Plots__ can be used detect Outliers in the data. They can be created using __Seaborn__ library
 
 ![Image_Box_Plot](https://miro.medium.com/max/612/1*105IeKBRGtyPyMy3-WQ8hw.png)
-
-
   
 ## 6_ Probability theory
 
+__Probability__ is the likelihood of an event in a Random experiment. For instance, if a coin is tossed, the chance of getting a head is 50% so, probability is 0.5.
+
+__Sample Space__: It is the set of all possible outcomes of a Random Experiment. 
+__Favourable Outcomes__: The set of outcomes we are looking for in a Random Experiment
+
+__Probability = (Number of Favourable Outcomes) / (Sample Space)__
+
+__Probability theory__ is a branch of mathematics that is associated with the concept of probability.
+
+[Basics of Probability](https://towardsdatascience.com/basic-probability-theory-and-statistics-3105ab637213)
+
 ## 7_ Bayes theorem
+
+
 
 ## 8_ Random variables
 
