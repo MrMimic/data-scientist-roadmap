@@ -115,6 +115,14 @@ It is used for dimensionality reduction also. Often it is seen that several feat
 
 ## 4_ Histograms
 
+Histograms are representation of distribution of numerical data. The procedure consists of binnng the numeric values using range divisions i.e, the entire range in which the data varies is split into several fixed intervals. Count or frequency of occurences of the numbers in the range of the bins are represented.
+
+[Histograms](https://en.wikipedia.org/wiki/Histogram)
+
+![plot](https://en.wikipedia.org/wiki/Histogram#/media/File:Example_histogram.png)
+
+
+
 ## 5_ Percentiles & outliers
 
 ## 6_ Probability theory
