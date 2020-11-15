@@ -58,6 +58,49 @@ Again, during applications we must also know the distribution of data, for insta
 
 [Guide to EDA in Python](https://towardsdatascience.com/data-preprocessing-and-interpreting-results-the-heart-of-machine-learning-part-1-eda-49ce99e36655)
 
+##### Libraries in Python 
+
+[Matplotlib](https://matplotlib.org/)
+
+Library used to plot graphs in Python
+
+__installation__:
+
+    sudo pip3 install matplotlib
+
+__utilization__:
+
+    import matplotlib.pyplot as plt
+
+[Pandas](https://pandas.pydata.org/)
+
+Library used to large datasets in python
+
+__installation__:
+
+    sudo pip3 install pandas
+
+__utilization__:
+
+    import pandas as pd
+    
+[Seaborn](https://seaborn.pydata.org/)
+
+Yet another Graph Plotting Library in Python.
+
+__installation__:
+
+    sudo pip3 install seaborn
+
+__utilization__:
+
+    import seaborn as sns
+
+
+#### PCA
+
+PCA stands for principle component analysis. We often require to shape of the data distribution as we have seen 
+
 ## 4_ Histograms
 
 ## 5_ Percentiles & outliers
