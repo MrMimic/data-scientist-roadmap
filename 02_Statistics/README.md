@@ -64,11 +64,11 @@ Again, during applications we must also know the distribution of data, for insta
 
 Library used to plot graphs in Python
 
-__installation__:
+__Installation__:
 
     sudo pip3 install matplotlib
 
-__utilization__:
+__Utilization__:
 
     import matplotlib.pyplot as plt
 
@@ -76,11 +76,11 @@ __utilization__:
 
 Library used to large datasets in python
 
-__installation__:
+__Installation__:
 
     sudo pip3 install pandas
 
-__utilization__:
+__Utilization__:
 
     import pandas as pd
     
@@ -88,18 +88,30 @@ __utilization__:
 
 Yet another Graph Plotting Library in Python.
 
-__installation__:
+__Installation__:
 
     sudo pip3 install seaborn
 
-__utilization__:
+__Utilization__:
 
     import seaborn as sns
 
 
 #### PCA
 
-PCA stands for principle component analysis. We often require to shape of the data distribution as we have seen 
+PCA stands for principle component analysis.
+
+We often require to shape of the data distribution as we have seen previously. We need to plot the data for the same.
+
+Data can be Multidimensional, that is, a dataset can have multiple features. 
+
+We can plot only two dimensional data, so, for multidimensional data, we project the multidimensional distribution in two dimensions, preserving the principle components of the distribution, in order to get an idea of the actual distribution through the 2D plot. 
+
+It is used for dimensionality reduction also. Often it is seen that several features do not significantly contribute any important insight to the data distribution. Such features creates complexity and increase dimensionality of the data. Such features are not considered which results in decrease of the dimensionality of the data.
+
+[Mathematical Explanation](https://medium.com/towards-artificial-intelligence/demystifying-principal-component-analysis-9f13f6f681e6)
+
+[Application in Python](https://towardsdatascience.com/data-preprocessing-and-interpreting-results-the-heart-of-machine-learning-part-2-pca-feature-92f8f6ec8c8)
 
 ## 4_ Histograms
 
