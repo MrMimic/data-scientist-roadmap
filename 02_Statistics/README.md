@@ -119,7 +119,7 @@ Histograms are representation of distribution of numerical data. The procedure c
 
 [Histograms](https://en.wikipedia.org/wiki/Histogram)
 
-![plot](https://en.wikipedia.org/wiki/Histogram#/media/File:Example_histogram.png)
+![plot](https://en.wikipedia.org/wiki/File:Example_histogram.png)
 
 
 
