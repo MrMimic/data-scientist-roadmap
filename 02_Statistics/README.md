@@ -242,6 +242,44 @@ Data Distribution are often Skewed which may cause trouble during processing the
 
 ## 16_ Hypothesis Testing
 
+Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data. Hypothesis Testing is basically an assumption that we make about the population parameter.
+
+For example, say, we take the hypothesis that boys in a class are taller than girls. 
+
+The above statement is just an assumption on the population of the class.
+
+__Hypothesis__ is just an assumptive proposal or statement made on the basis of observations made on a set of information or data. 
+
+We initially propose two mutually exclusive statements based on the population of the sample data. 
+
+The initial one is called __NULL HYPOTHESIS__. It is denoted by H0.
+
+The second one is called __ALTERNATE HYPOTHESIS__. It is denoted by H1 or Ha. It is used as a contrary to Null Hypothesis. 
+
+Based on the instances of the population we accept or reject the NULL Hypothesis and correspondingly we reject or accept the ALTERNATE Hypothesis.
+ 
+#### Level of Significance
+
+It is the degree which we consider to decide whether to accept or reject the NULL hypothesis. When we consider a hypothesis on a population, it is not the case that 100% or all instances of the population abides the assumption, so we decide a __level of significance as a cutoff degree, i.e, if our level of significance is 5%, and (100-5)% = 95% of the data abides by the assumption, we accept the Hypothesis.__
+
+__It is said with 95% confidence, the hypothesis is accepted__
+
+![curve](https://i.stack.imgur.com/d8iHd.png)
+
+The non-reject region is called __acceptance region or beta region__. The rejection regions are called __critical or alpha regions__. __alpha__ denotes the __level of significance__.
+
+If level of significance is 5%. the two alpha regions have (2.5+2.5)% of the population and the beta region has the 95%. 
+
+The acceptance and rejection gives rise to two kinds of errors:
+
+__Type-I Error:__ NULL Hypothesis is true, but wrongly Rejected.
+
+__Type-II Error:__ NULL Hypothesis if false but is wrongly accepted.
+
+![hypothesis](https://microbenotes.com/wp-content/uploads/2020/07/Graphical-representation-of-type-1-and-type-2-errors.jpg)
+
+
+
 ## 17_ p-Value
 
 ## 18_ Chi2 test
