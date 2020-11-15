@@ -210,6 +210,7 @@ Skewness can be positive, negative or zero.
 ![skewed image](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Negative_and_positive_skew_diagrams_%28English%29.svg/446px-Negative_and_positive_skew_diagrams_%28English%29.svg.png)
 
 __Negative skew__: Distribution Concentrated in the right, left tail is longer.
+
 __Positive skew__: Distribution Concentrated in the left, right tail is longer.
 
 Variation of central tendency measures are shown below.
