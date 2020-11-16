@@ -242,6 +242,36 @@ Data Distribution are often Skewed which may cause trouble during processing the
 
 ## 16_ Hypothesis Testing
 
+### Types of curves
+
+We need to know about two distribution curves first.
+
+Distribution curves reflect the probabilty of finding an instance or a sample of a population at a certain value of the distribution.
+
+__Normal Distribution__
+
+![normal distribution](https://sciences.usca.edu/biology/zelmer/305/norm/stanorm.jpg)
+
+The normal distribution represents how the data is distributed. In this case, most of the data samples in the distribution are scattered at and around the mean of the distribution. A few instances are scattered or present at the long tail ends of the distribution.
+
+Few points about Normal Distributions are:
+
+1. The curve is always Bell-shaped. This is because most of the data is found around the mean, so the proababilty of finding a sample at the mean or central value is more.
+
+2. The curve is symmetric
+
+3. The area under the curve is always 1. This is because all the points of the distribution must be present under the curve
+
+4. For Normal Distribution, Mean and Median lie on the same line in the distribution. 
+
+__Standard Normal Distribution__
+
+This type of distribution are normal distributions which following conditions.
+
+1. Mean of the distribution is 0
+
+2. The Standard Deviation of the distribution is equal to 1.
+
 Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data. Hypothesis Testing is basically an assumption that we make about the population parameter.
 
 For example, say, we take the hypothesis that boys in a class are taller than girls. 
