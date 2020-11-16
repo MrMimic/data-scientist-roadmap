@@ -272,6 +272,10 @@ This type of distribution are normal distributions which following conditions.
 
 2. The Standard Deviation of the distribution is equal to 1.
 
+The idea of Hypothesis Testing works completely on the data distributions.
+
+### Hypothesis Testing
+
 Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data. Hypothesis Testing is basically an assumption that we make about the population parameter.
 
 For example, say, we take the hypothesis that boys in a class are taller than girls. 
@@ -307,6 +311,24 @@ __Type-I Error:__ NULL Hypothesis is true, but wrongly Rejected.
 __Type-II Error:__ NULL Hypothesis if false but is wrongly accepted.
 
 ![hypothesis](https://microbenotes.com/wp-content/uploads/2020/07/Graphical-representation-of-type-1-and-type-2-errors.jpg)
+
+### Tests for Hypothesis
+
+__One Tailed Test__: 
+
+![One-tailed](https://prwatech.in/blog/wp-content/uploads/2019/07/onetailtest.png)
+
+This is a test for Hypothesis, where the rejection region is only one side of the sampling distribution. The rejection region may be in right tail end or in the left tail end.
+
+The idea is if we say our level of significance is 5% and we consider a hypothesis "Hieght of Boys in a class is <=6 ft". We consider the hypothesis true if atmost 5% of our population are more than 6 feet. So, this will be one-tailed as the test condition only restricts one tail end, the end with hieght > 6ft. 
+
+![Two Tailed](https://i0.wp.com/www.real-statistics.com/wp-content/uploads/2012/11/two-tailed-significance-testing.png)
+
+In this case, the rejection region extends at both tail ends of the distribution.
+
+The idea is if we say our level of significance is 5% and we consider a hypothesis "Hieght of Boys in a class is !=6 ft".
+
+Here, we can accept the NULL hyposthesis iff atmost 5% of the population is less than or greater than 6 feet. So, it is evident that the crirtical region will be at both tail ends and the region is 5% / 2 = 2.5% at both ends of the distribution. 
 
 
 
