@@ -348,6 +348,27 @@ Here, we can accept the NULL hyposthesis iff atmost 5% of the population is less
 
 ## 24_ Covariance
 
+### Variance
+The variance is a measure of how dispersed or spread out the set is. If it is said that the variance is zero, it means all the elements in the dataset are same. If the variance is low, it means the data are slightly dissimilar. If the variance is very high, it means the data in the dataset are largely dissimilar. 
+
+Mathematically, it is a measure of how far each value in the data set is from the mean.
+
+Variance (sigma^2) is given by summation of the square of distances of each point from the mean, divided by the number of points
+
+![formula var](https://cdn.sciencebuddies.org/Files/474/9/DefVarEqn.jpg)
+
+### Covariance
+
+Covariance gives us an idea about the degree of association between two considered random variables. Now, we know random variables create distributions. Distribution are a set of values or data points which the variable takes and we can easily represent as vectors in the vector space.
+
+For vectors covariance is defined as the dot product of two vectors. The value of covariance can vary from positive infinity to negative infinity. If the two distributions or vectors grow in the same direction the covariance is positive and vice versa. The Sign gives the direction of variation and the Magnitude gives the amount of variation.  
+
+Covariance is given by:
+
+![cov_form](https://cdn.corporatefinanceinstitute.com/assets/covariance1.png)
+
+where Xi and Yi denotes the i-th point of the two distributions and X-bar and Y-bar represent the mean values of both the distributions, and n represents the number of values or data points in the distribution. 
+
 ## 25_ Correlation
 
 ## 26_ Pearson coeff
