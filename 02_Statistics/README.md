@@ -382,8 +382,11 @@ Correlation is given by:
 Where:
 
 ρ(X,Y) – the correlation between the variables X and Y
+
 Cov(X,Y) – the covariance between the variables X and Y
+
 σX – the standard deviation of the X-variable
+
 σY – the standard deviation of the Y-variable
 
 Standard deviation is given by square roo of variance.
