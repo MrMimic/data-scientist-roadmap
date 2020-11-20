@@ -350,7 +350,7 @@ Regression tasks deal with predicting the value of a __dependent variable__ from
 
 Say, we want to predict the price of a car. So, it becomes a dependent variable say Y, and the features like engine capacity, top speed, class, and company become the independent variables, which helps to frame the equation to obtain the price.
 
-If there is one feature say x. If the dependent variable y is linearly dependent on x, then it can be given by __y=mx+c__, where the m is the coefficient of the feature in the equation, c is the intercept or bias.
+If there is one feature say x. If the dependent variable y is linearly dependent on x, then it can be given by __y=mx+c__, where the m is the coefficient of the independent in the equation, c is the intercept or bias.
 
 The image shows the types of regression
 
