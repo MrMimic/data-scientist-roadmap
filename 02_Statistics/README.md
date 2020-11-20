@@ -346,6 +346,18 @@ Here, we can accept the NULL hyposthesis iff atmost 5% of the population is less
 
 ## 23_ Regression
 
+Regression tasks deal with predicting the value of a __dependent variable__ from a set of __independent variables.__
+
+Say, we want to predict the price of a car. So, it becomes a dependent variable say Y, and the features like engine capacity, top speed, class, and company become the independent variables, which helps to frame the equation to obtain the price.
+
+If there is one feature say x. If the dependent variable y is linearly dependent on x, then it can be given by __y=mx+c__, where the m is the coefficient of the feature in the equation, c is the intercept or bias.
+
+The image shows the types of regression
+
+![types](https://miro.medium.com/max/2001/1*dSFn-uIYDhDfdaG5GXlB3A.png)
+
+[Guide to Regression](https://towardsdatascience.com/a-deep-dive-into-the-concept-of-regression-fb912d427a2e)
+
 ## 24_ Covariance
 
 ### Variance
