@@ -371,6 +371,23 @@ where Xi and Yi denotes the i-th point of the two distributions and X-bar and Y-
 
 ## 25_ Correlation
 
+Covariance measures the total relation of the variables namely both direction and magnitude. Correlation is a scaled measure of covariance. It is dimensionless and independent of scale. It just shows the strength of variation for both the variables.
+
+Mathematically, if we represent the distribution using vectors, correlation is said to be the cosine angle between the vectors. The value of correlation varies from +1 to -1. +1 is said to be a strong positive correlation and -1 is said to be a strong negative correlation. 0 implies no correlation, or the two variables are independent of each other. 
+
+Correlation is given by:
+
+![corr](https://cdn.corporatefinanceinstitute.com/assets/covariance3.png)
+
+Where:
+
+ρ(X,Y) – the correlation between the variables X and Y
+Cov(X,Y) – the covariance between the variables X and Y
+σX – the standard deviation of the X-variable
+σY – the standard deviation of the Y-variable
+
+Standard deviation is given by square roo of variance.
+
 ## 26_ Pearson coeff
 
 ## 27_ Causation
