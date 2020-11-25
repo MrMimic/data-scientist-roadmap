@@ -334,6 +334,88 @@ Here, we can accept the NULL hyposthesis iff atmost 5% of the population is less
 
 ## 17_ p-Value
 
+Before we jump into P-values we need to look at another important topic in the context: Z-test.
+
+### Z-test
+
+We need to know two terms: __Population and Sample.__
+
+__Population__ describes the entire available data distributed. So, it refers to all records provided in the dataset.
+
+__Sample__ is said to be a group of data points randomly picked from a population or a given distribution. The size of the sample can be any number of data points, given by __sample size.__
+
+__Z-test__ is simply used to determine if a given sample distribution belongs to a given population. 
+
+Now,for Z-test we have to use __Standard Normal Form__ for the standardized comparison measures.
+
+![std1](https://miro.medium.com/max/700/1*VYCN5b-Zubr4rrc9k37SAg.png)
+
+As we already have seen, standard normal form is a normal form with mean=0 and standard deviation=1.
+
+The __Standard Deviation__ is a measure of how much differently the points are distributed around the mean.
+
+![std2](https://miro.medium.com/max/640/1*kzFQaZ08dTjlPq1zrcJXgg.png)
+
+It states that approximately 68% , 95% and 99.7% of the data lies within 1, 2 and 3 standard deviations of a normal distribution respectively.
+
+Now, to convert the normal distribution to standard normal distribution we need a standard score called Z-Score.
+It is given by:
+
+![Z-score](https://miro.medium.com/max/125/1*X--kDNyurDEo2zKbSDDf-w.png)
+
+x = value that we want to standardize
+
+µ = mean of the distribution of x
+
+σ = standard deviation of the distribution of x
+
+We need to know another concept __Central Limit Theorem__.
+
+##### Central Limit Theorem 
+
+_The theorem states that the mean of the sampling distribution of the sample means is equal to the population mean irrespective if the distribution of population where sample size is greater than 30._
+
+And
+
+_The sampling distribution of sampling mean will also follow the normal distribution._
+
+So, it states, if we pick several samples from a distribution with the size above 30, and pick the static sample means and use the sample means to create a distribution, the mean of the newly created sampling distribution is equal to the original population mean.
+
+According to the theorem, if we draw samples of size N, from a population with population mean μ and population standard deviation σ, the condition stands:
+
+![std3](https://miro.medium.com/max/121/0*VPW964abYGyevE3h.png)
+
+i.e, mean of the distribution of sample means is equal to the sample means.
+
+The standard deviation of the sample means is give by:
+
+![std4](https://miro.medium.com/max/220/0*EMx4C_A9Efsd6Ef6.png)
+
+The above term is also called standard error.
+
+We use the theory discussed above for Z-test. If the sample mean lies close to the population mean, we say that the sample belongs to the population and if it lies at a distance from the population mean, we say the sample is taken from a different population.
+
+To do this we use a formula and check if the z statistic is greater than or less than 1.96 (considering two tailed test, level of significance = 5%)
+
+![los](https://miro.medium.com/max/424/0*C9XaCIUWoJaBSMeZ.gif)
+
+![std5](https://miro.medium.com/max/137/1*DRiPmBtjK4wmidq9Ha440Q.png)
+ 
+ The above formula gives Z-static
+
+z = z statistic
+
+X̄ = sample mean
+
+μ = population mean
+
+σ = population standard deviation
+
+n = sample size
+
+
+
+
 ## 18_ Chi2 test
 
 ## 19_ Estimation
