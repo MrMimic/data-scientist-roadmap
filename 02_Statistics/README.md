@@ -413,8 +413,27 @@ X̄ = sample mean
 
 n = sample size
 
+Now, as the Z-score is used to standardize the distribution, it gives us an idea how the data is distributed overall.
 
+### P-values
 
+It is used to check if the results are statistically significant based on the significance level.  
+
+Say, we perform an experiment and collect observations or data. Now, we make a hypothesis (NULL hypothesis) primary, and a second hypothesis, contradictory to the first one called the alternative hypothesis.
+
+Then we decide a level of significance which serve as a threshold for our null hypothesis. The P value actually gives the probability of the statement. Say, the p-value of our alternative hypothesis is 0.02, it means the probability of alternate hypothesis happenning is 2%. 
+
+Now, the level of significance into play to decide if we can allow 2% or p-value of 0.02. It can be said as a level of endurance of the null hypothesis. If our level of significance is 5% using a two tailed test, we can allow 2.5% on both ends of the distribution, we accept the NULL hypothesis, as level of significance > p-value of alternate hypothesis. 
+
+But if the p-value is greater than level of significance, we tell that the result is __statistically significant, and we reject NULL hypothesis.__ .
+
+Resources:
+
+1. https://medium.com/analytics-vidhya/everything-you-should-know-about-p-value-from-scratch-for-data-science-f3c0bfa3c4cc
+
+2. https://towardsdatascience.com/p-values-explained-by-data-scientist-f40a746cfc8
+
+3.https://medium.com/analytics-vidhya/z-test-demystified-f745c57c324c
 
 ## 18_ Chi2 test
 
