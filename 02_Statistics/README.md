@@ -42,7 +42,7 @@ The median is the value __separating the higher half of a data sample, a populat
 
 #### Installation
 
-    sudo pip3 install numpy
+    pip3 install numpy
 
 #### Utilization
     
@@ -66,7 +66,7 @@ Library used to plot graphs in Python
 
 __Installation__:
 
-    sudo pip3 install matplotlib
+    pip3 install matplotlib
 
 __Utilization__:
 
@@ -78,7 +78,7 @@ Library used to large datasets in python
 
 __Installation__:
 
-    sudo pip3 install pandas
+    pip3 install pandas
 
 __Utilization__:
 
@@ -90,7 +90,7 @@ Yet another Graph Plotting Library in Python.
 
 __Installation__:
 
-    sudo pip3 install seaborn
+    pip3 install seaborn
 
 __Utilization__:
 
