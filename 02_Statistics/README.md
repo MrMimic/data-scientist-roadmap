@@ -535,3 +535,16 @@ Standard deviation is given by square roo of variance.
 ## 28_ Least2-fit
 
 ## 29_ Euclidian Distance
+
+__Eucladian Distance is the most used and standard measure for the distance between two points.__
+
+It is given as the square root of sum of squares of the difference between coordinates of two points.
+
+__the Euclidean distance between two points in Euclidean space is a number, the length of a line segment between the two points. It can be calculated from the Cartesian coordinates of the points using the Pythagorean theorem, and is occasionally called the Pythagorean distance.__
+
+__In the Euclidean plane, let point p have Cartesian coordinates (p_{1},p_{2}) and let point q have coordinates (q_{1},q_{2}). Then the distance between p and q is given by__
+
+[!eucladian](https://wikimedia.org/api/rest_v1/media/math/render/svg/9c0157084fd89f5f3d462efeedc47d3d7aa0b773)
+
+
+
