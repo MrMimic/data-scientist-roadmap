@@ -437,6 +437,30 @@ Resources:
 
 ## 18_ Chi2 test
 
+Chi2 test is extensively used in data science and machine learning problems for feature selection.
+
+A chi-square test is used in statistics to test the independence of two events. So, it is used to check for independence of features used. Often dependent features are used which do not convey a lot of information but adds dimensionality to a feature space.
+
+It is one of the most common ways to examine relationships between two or more categorical variables.
+
+It involves calculating a number, called the chi-square statistic - χ2. Which follows a chi-square distribution.
+
+It is given as the summation of the difference of the expected values and observed value divided by the observed value.
+
+![Chi2](https://miro.medium.com/max/266/1*S8rfFkmLhDbOz4RGNwuz6g.png)
+
+
+Resources:
+
+[Definitions](investopedia.com/terms/c/chi-square-statistic.asp)
+
+[Guide 1](https://towardsdatascience.com/chi-square-test-for-feature-selection-in-machine-learning-206b1f0b8223)
+
+[Guide 2](https://medium.com/swlh/what-is-chi-square-test-how-does-it-work-3b7f22c03b01)
+
+[Example of Operation](https://medium.com/@kuldeepnpatel/chi-square-test-of-independence-bafd14028250)
+
+
 ## 19_ Estimation
 
 ## 20_ Confid Int (CI)
