@@ -234,6 +234,50 @@ Data Distribution are often Skewed which may cause trouble during processing the
 
 ## 12_ ANOVA
 
+ANOVA stands for __analysis of variance__. 
+
+It is used to compare among groups of data distributions.
+
+Often we are provided with huge data. They are too huge to work with. The total data is called the __Population__.
+
+In order to work with them, we pick random smaller groups of data. They are called __Samples__.
+
+ANOVA is used to compare the variance among these groups or samples. 
+
+Variance of  group is given by:
+
+![var](https://miro.medium.com/max/446/1*yzAMFVIEFysMKwuT0YHrZw.png)
+
+The differences in the collected samples are observed using the differences between the means of the groups. We often use the __t-test__ to compare the means and also to check if the samples belong to the same population,
+
+Now, t-test can only be possible among two groups. But, often we get more groups or samples.
+
+If we try to use t-test for more than two groups we have to perform t-tests multiple times, once for each pair. This is where ANOVA is used.
+
+ANOVA has two components:
+
+__1.Variation within each group__
+
+__2.Variation between groups__
+
+It works on a ratio called the  __F-Ratio__
+
+It is given by:
+
+![F-ratio](https://miro.medium.com/max/491/1*I5dSwtUICySQ5xvKmq6M8A.png)
+
+F ratio shows how much of the total variation comes from the variation between groups and how much comes from the variation within groups. If much of the variation comes from the variation between groups, it is more likely that the mean of groups are different. However, if most of the variation comes from the variation within groups, then we can conclude the elements in a group are different rather than entire groups. The larger the F ratio, the more likely that the groups have different means.
+
+
+Resources:
+
+[Defnition](https://statistics.laerd.com/statistical-guides/one-way-anova-statistical-guide.php)
+
+[GUIDE 1](https://towardsdatascience.com/anova-analysis-of-variance-explained-b48fee6380af)
+
+[Details](https://medium.com/@StepUpAnalytics/anova-one-way-vs-two-way-6b3ff87d3a94)
+
+
 ## 13_ Prob Den Fn (PDF)
 
 ## 14_ Central Limit theorem
