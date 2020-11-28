@@ -17,7 +17,15 @@ Machine Learning is part of the Artificial Intelligences study. It concerns the 
 
 ## 2_ Numerical var
 
+Variables which can take continous integer or real values. They can take infinite values.
+
+These types of variables are mostly used for features which involves measurements. For example, hieghts of all students in a class.
+
 ## 3_ Categorical var
+
+Variables that take finite discrete values. They take a fixed set of values, in order to classify a data item.
+
+They act like assigned labels. For example: Labelling the students of a class according to gender: 'Male' and 'Female'
 
 ## 4_ Supervised learning
 
