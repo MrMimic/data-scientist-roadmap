@@ -86,6 +86,14 @@ Syntax:
 
 ## 8_ Classifiers
 
+Classification is the most important and most common machine learning problem. Classification problems can be both suprvised and unsupervised problems.
+
+The classification problems involve labelling data points to belong to a particular class based on the feature set corresponding to the particluar data point.
+
+Classification tasks can be performed using both machine learning and deep learning techniques.
+
+Machine learning classification techniques involve: Logistic Regressions, SVMs, and Classification trees.
+
 ## 9_ Prediction
 
 ## 10_ Lift
