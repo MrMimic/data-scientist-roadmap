@@ -174,6 +174,36 @@ Resource:
 
 ## 16_ Boosting
 
+#### Ensemble Learning
+
+It is the method used to enhance the performance of the Machine learning models by combining several number of models or weak learners. They provide improved efficiency.
+
+There are two types of ensemble learning:
+
+__1. Parallel ensemble learning or bagging method__
+
+__2. Sequential ensemble learning or boosting method__
+
+In parallel method or bagging technique, several weak classifiers are created in parallel. The training datasets are created randomly on a bootstrapping basis from the original dataset. The datasets used for the training and creation phases are weak classifiers. Later during predictions, the reults from all the classifiers are bagged together to provide the final results.
+
+![bag](https://miro.medium.com/max/850/1*_pfQ7Xf-BAwfQXtaBbNTEg.png)
+
+Ex: Random Forests
+
+In sequential learning or boosting weak learners are created one after another and the data sample set are weighted in such a manner that during creation, the next learner focuses on the samples that were wrongly predicted by the previous classifier. So, at each step, the classifier improves and learns from its previous mistakes or misclassifications.
+
+![boosting](https://www.kdnuggets.com/wp-content/uploads/Budzik-fig2-ensemble-learning.jpg)
+
+There are mostly three types of boosting algorithm:
+
+__1. Adaboost__
+
+__2. Gradient Boosting__
+
+__3. XGBoost__
+
+
+
 ## 17_ Naïves Bayes classifiers
 
 ## 18_ K-Nearest neighbor
