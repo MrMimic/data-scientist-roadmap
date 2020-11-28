@@ -161,6 +161,16 @@ Decision tree approach for classification
 
 ## 15_ Decision tree
 
+Decision Trees are some of the most used machine learning algorithms. They are used for both classification and Regression. They can be used for both linear and non-linear data, but they are mostly used for non-linear data. Decision Trees as the name suggests works on a set of decisions derived from the data and its behavior. It does not use a linear classifier or regressor, so its performance is independent of the linear nature of the data. 
+
+One of the other most important reasons to use tree models is that they are very easy to interpret.
+
+Decision Trees can be used for both classification and regression. The methodologies are a bit different, though principles are the same. The decision trees use the CART algorithm (Classification and Regression Trees)
+
+Resource:
+
+[Guide to Decision Tree](https://towardsdatascience.com/a-dive-into-decision-trees-a128923c9298)
+
 
 ## 16_ Boosting
 
