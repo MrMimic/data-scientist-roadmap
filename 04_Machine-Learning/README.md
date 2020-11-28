@@ -12,7 +12,7 @@ Machine learning mostly consists of three algorithms:
 
 ### Utilisation examples
 
-* Computer vision ([Definition](http://www.bmva.org/visionoverview))
+* Computer vision
 * Search engines
 * Financial analysis
 * Documents classification
@@ -79,8 +79,8 @@ We normally split the provided dataset to create the training and test set. The 
 
 Syntax:
 
-  from sklearn.model_selection import train_test_split
-  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+    from sklearn.model_selection import train_test_split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
   
 [Sklearn docs](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 
