@@ -199,7 +199,19 @@ __Continous Random Variables__: Such variables can take an infinite number of po
 
 ## 9_ Cumul Dist Fn (CDF)
 
+In probability theory and statistics, the cumulative distribution function (CDF) of a real-valued random variable __X__, or just distribution function of __X__, evaluated at __x__, is the probability that __X__ will take a value less than or equal to __x__.
+
+The cumulative distribution function of a real-valued random variable X is the function given by:
+
+![CDF](https://wikimedia.org/api/rest_v1/media/math/render/svg/f81c05aba576a12b4e05ee3f4cba709dd16139c7)
+
+Resource:
+
+[Wikipedia](https://en.wikipedia.org/wiki/Cumulative_distribution_function)
+
 ## 10_ Continuous distributions
+
+A continuous distribution describes the probabilities of the possible values of a continuous random variable. A continuous random variable is a random variable with a set of possible values (known as the range) that is infinite and uncountable.
 
 ## 11_ Skewness
 
@@ -279,6 +291,16 @@ Resources:
 
 
 ## 13_ Prob Den Fn (PDF)
+
+It stands for probability density function. 
+
+__In probability theory, a probability density function (PDF), or density of a continuous random variable, is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would equal that sample.__
+
+The probability density function (PDF) P(x) of a continuous distribution is defined as the derivative of the (cumulative) distribution function D(x).
+
+It is given by the integral of the function over a given range.
+
+![PDF](https://wikimedia.org/api/rest_v1/media/math/render/svg/45fd7691b5fbd323f64834d8e5b8d4f54c73a6f8)
 
 ## 14_ Central Limit theorem
 
