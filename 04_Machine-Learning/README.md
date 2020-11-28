@@ -6,6 +6,10 @@
 
 Machine Learning is part of the Artificial Intelligences study. It concerns the conception, devloppement and implementation of sophisticated methods, allowing a machine to achieve really hard tasks, nearly impossible to solve with classic algorithms.
 
+Machine learning mostly consists of three algorithms:
+
+![ml](https://miro.medium.com/max/561/0*qlvUmkmkeefqe_Mk)
+
 ### Utilisation examples
 
 * Computer vision ([Definition](http://www.bmva.org/visionoverview))
@@ -36,6 +40,10 @@ The training data consist of a __set of training examples__.
 In supervised learning, each example is a pair consisting of an input object (typically a vector) and a desired output value (also called the supervisory signal). 
 
 A supervised learning algorithm analyzes the training data and produces an inferred function, which can be used for mapping new examples. 
+
+In other words:
+
+Supervised Learning learns from a set of labeled examples. From the instances and the labels, supervised learning models try to find the correlation among the features, used to describe an instance, and learn how each feature contributes to the label corresponding to an instance. On receiving an unseen instance, the goal of supervised learning is to label the instance based on its feature correctly.
 
 __An optimal scenario will allow for the algorithm to correctly determine the class labels for unseen instances__.
 
