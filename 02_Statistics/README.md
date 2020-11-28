@@ -535,6 +535,44 @@ Resources:
 
 ## 22_ Kernel Density estimate
 
+In statistics, kernel density estimation (KDE) is a non-parametric way to estimate the probability density function of a random variable. Kernel density estimation is a fundamental data smoothing problem where inferences about the population are made, based on a finite data sample.
+
+Kernel Density estimate can be regarded as another way to represent the probability distribution. 
+
+![KDE1](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Kernel_density.svg/250px-Kernel_density.svg.png)
+
+It consists of choosing a kernel function. There are mostly three used.
+
+1. Gaussian 
+
+2. Box
+
+3. Tri
+
+The kernel function depicts the probability of finding a data point. So, it is highest at the centre and decreases as we move away from the point.
+
+We assign a kernel function over all the data points and finally calculate the density of the functions, to get the density estimate of the distibuted data points. It practically adds up the Kernel function values at a particular point on the axis. It is as shown below.
+
+![KDE 2](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Comparison_of_1D_histogram_and_KDE.png/500px-Comparison_of_1D_histogram_and_KDE.png)
+
+Now, the kernel function is given by:
+
+![kde3](https://wikimedia.org/api/rest_v1/media/math/render/svg/f3b09505158fb06033aabf9b0116c8c07a68bf31)
+
+where K is the kernel — a non-negative function — and h > 0 is a smoothing parameter called the bandwidth. 
+
+The 'h' or the bandwidth is the parameter, on which the curve varies.
+
+![kde4](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Comparison_of_1D_bandwidth_selectors.png/220px-Comparison_of_1D_bandwidth_selectors.png)
+
+Kernel density estimate (KDE) with different bandwidths of a random sample of 100 points from a standard normal distribution. Grey: true density (standard normal). Red: KDE with h=0.05. Black: KDE with h=0.337. Green: KDE with h=2.
+
+Resources:
+
+[Basics](https://www.youtube.com/watch?v=x5zLaWT5KPs)
+
+[Advanced](https://jakevdp.github.io/PythonDataScienceHandbook/05.13-kernel-density-estimation.html)
+
 ## 23_ Regression
 
 Regression tasks deal with predicting the value of a __dependent variable__ from a set of __independent variables.__
