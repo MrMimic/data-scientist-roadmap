@@ -145,6 +145,18 @@ This is one of the most important tradeoffs in machine learning
 
 ## 13_ Tree and classification
 
+We have previously talked about classificaion. We have seen the most used methods are Logistic Regression, SVMs and decision trees. Now, if the decision boundary is linear the methods like logistic regression and SVM serves best, but its a complete scenerio when the decision boundary is non linear, this is where decision tree is used.
+
+![tree](https://www.researchgate.net/profile/Zena_Hira/publication/279274803/figure/fig4/AS:324752402075653@1454438414424/Linear-versus-nonlinear-classification-problems.png)
+
+The first image shows linear decision boundary and second image shows non linear decision boundary.
+
+Ih the cases, for non linear boundaries, the decision trees condition based approach work very well for classification problems. The algorithm creates conditions on features to drive and reach a decision, so is independent of functions.
+
+![tree2](https://databricks.com/wp-content/uploads/2014/09/decision-tree-example.png)
+
+Decision tree approach for classification
+
 ## 14_ Classification rate
 
 ## 15_ Decision tree
