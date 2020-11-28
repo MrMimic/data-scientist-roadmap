@@ -202,6 +202,15 @@ __2. Gradient Boosting__
 
 __3. XGBoost__
 
+__Adaboost__ algorithm works in the exact way describe. It creates a weak learner, also known as stumps, they are not full grown trees, but contain a single node based on which the classification is done. The misclassifications are observed and they are weighted more than the correctly classified ones while training the next weak learner. 
+
+__sklearn.ensemble.AdaBoostClassifier__ is used for the application of the classifier on real data.
+
+![adaboost](https://ars.els-cdn.com/content/image/3-s2.0-B9780128177365000090-f09-18-9780128177365.jpg)
+
+Reources:
+
+[Understanding](https://blog.paperspace.com/adaboost-optimizer/#:~:text=AdaBoost%20is%20an%20ensemble%20learning,turn%20them%20into%20strong%20ones.)
 
 
 ## 17_ Naïves Bayes classifiers
