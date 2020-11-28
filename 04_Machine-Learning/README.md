@@ -61,7 +61,28 @@ Resource:
 
 ## 6_ Concepts, inputs and attributes
 
+A machine learning problem takes in the features of a dataset as input.
+
+For supervised learning, the model trains on the data and then it is ready to perform. So, for supervised learning, apart from the features we also need to input  the corresponding labels of the data points to let the model train on them.
+
+For unsupervised learning, the models simply perform by just citing complex relations among data items and grouping them accordingly. So, unsupervised learning do not need a labelled dataset. The input is only the feature section of the dataset.
+
 ## 7_ Training and test data
+
+If we train a supervised machine learning model using a dataset, the model captures the dependencies of that particular data set very deeply. So, the model will always perform well on the data and it won't be proper measure of how well the model performs. 
+
+To know how well the model performs, we must train and test the model on different datasets. The dataset we train the model on is called Training set, and the dataset we test the model on is called the test set.
+
+We normally split the provided dataset to create the training and test set. The ratio of splitting is majorly: 3:7 or 2:8 depending on the data, larger being the trining data.
+
+#### sklearn.model_selection.train_test_split is used for splitting the data.
+
+Syntax:
+
+  from sklearn.model_selection import train_test_split
+  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+  
+[Sklearn docs](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 
 ## 8_ Classifiers
 
