@@ -245,4 +245,4 @@ The perceptron __works like a biological neuron__. It calculate an activation va
 
 ## 29_ Support Vector Machine
 
-## Reinforcement Learning
+## 30_Reinforcement Learning
