@@ -53,6 +53,12 @@ Unsupervised machine learning is the machine learning task of inferring a functi
 
 Since the examples given to the learner are unlabeled, there is no evaluation of the accuracy of the structure that is output by the relevant algorithm—which is one way of distinguishing unsupervised learning from supervised learning and reinforcement learning.
 
+Unsupervised learning deals with data instances only. This approach tries to group data and form clusters based on the similarity of features. If two instances have similar features and placed in close proximity in feature space, there are high chances the two instances will belong to the same cluster. On getting an unseen instance, the algorithm will try to find, to which cluster the instance should belong based on its feature.
+
+Resource:
+
+[Guide to unsupervised learning](https://towardsdatascience.com/a-dive-into-unsupervised-learning-bf1d6b5f02a7)
+
 ## 6_ Concepts, inputs and attributes
 
 ## 7_ Training and test data
@@ -105,4 +111,7 @@ The perceptron __works like a biological neuron__. It calculate an activation va
 ## 27_ Collaborative filtering
 
 ## 28_ Tagging
+
 ## 29_ Support Vector Machine
+
+## Reinforcement Learning
