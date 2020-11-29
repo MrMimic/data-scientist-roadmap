@@ -430,7 +430,39 @@ Neural networks are too complex to work on Gradient Descent algorithms, so it wo
 
 ## 26_ Sentiment analysis
 
+Text Classification and sentiment analysis is a very common machine learning problem and is used in a lot of activities like product predictions, movie recommendations, and several others.
+
+Text classification problems like sentimental analysis can be achieved in a number of ways using a number of algorithms. These are majorly divided into two main categories:
+
+A bag of Word model: In this case, all the sentences in our dataset are tokenized to form a bag of words that denotes our vocabulary. Now each individual sentence or sample in our dataset is represented by that bag of words vector. This vector is called the feature vector. For example, ‘It is a sunny day’, and ‘The Sun rises in east’ are two sentences. The bag of words would be all the words in both the sentences uniquely.
+
+The second method is based on a time series approach: Here each word is represented by an Individual vector. So, a sentence is represented as a vector of vectors.
+
+[Guide to sentimental analysis](https://towardsdatascience.com/a-guide-to-text-classification-and-sentiment-analysis-2ab021796317)
+
 ## 27_ Collaborative filtering
+
+We all have used services like Netflix, Amazon, and Youtube. These services use very sophisticated systems to recommend the best items to their users to make their experiences great. 
+
+Recommenders mostly have 3 components mainly, out of which, one of the main component is Candidate generation. This method is responsible for generating smaller subsets of candidates to recommend to a user, given a huge pool of thousands of items.
+
+Types of Candidate Generation Systems:
+
+__Content-based filtering System__
+
+__Collaborative filtering System__
+
+__Content-based filtering system__: Content-Based recommender system tries to guess the features or behavior of a user given the item’s features, he/she reacts positively to.
+
+__Collaborative filtering System__: Collaborative does not need the features of the items to be given. Every user and item is described by a feature vector or embedding.
+
+It creates embedding for both users and items on its own. It embeds both users and items in the same embedding space.
+
+It considers other users’ reactions while recommending a particular user. It notes which items a particular user likes and also the items that the users with behavior and likings like him/her likes, to recommend items to that user.
+
+It collects user feedbacks on different items and uses them for recommendations.
+
+[Guide to collaborative filtering](https://towardsdatascience.com/introduction-to-recommender-systems-1-971bd274f421)
 
 ## 28_ Tagging
 
