@@ -369,6 +369,34 @@ The perceptron __works like a biological neuron__. It calculate an activation va
 
 ## 23_ Hierarchical clustering
 
+The hierarchical algorithms are so-called because they create tree-like structures to create clusters. These algorithms also use a distance-based approach for cluster creation.
+
+The most popular algorithms are:
+
+__Agglomerative Hierarchical clustering__
+
+__Divisive Hierarchical clustering__
+
+__Agglomerative Hierarchical clustering__: In this type of hierarchical clustering, each point initially starts as a cluster, and slowly the nearest or similar most clusters merge to create one cluster.
+
+__Divisive Hierarchical Clustering__: The type of hierarchical clustering is just the opposite of Agglomerative clustering. In this type, all the points start as one large cluster and slowly the clusters get divided into smaller clusters based on how large the distance or less similarity is between the two clusters. We keep on dividing the clusters until all the points become individual clusters.
+
+For agglomerative clustering, we keep on merging the clusters which are nearest or have a high similarity score to one cluster. So, if we define a cut-off or threshold score for the merging we will get multiple clusters instead of a single one. For instance, if we say the threshold similarity metrics score is 0.5, it means the algorithm will stop merging the clusters if no two clusters are found with a similarity score less than 0.5, and the number of clusters present at that step will give the final number of clusters that need to be created to the clusters.
+
+Similarly, for divisive clustering, we divide the clusters based on the least similarity scores. So, if we define a score of 0.5, it will stop dividing or splitting if the similarity score between two clusters is less than or equal to 0.5. We will be left with a number of clusters and it won’t reduce to every point of the distribution.
+
+The process is as shown below:
+
+![HC](https://miro.medium.com/max/1000/1*4GRJvFaRdapnF3K4yH97DA.png)
+
+One of the most used methods for the measuring distance and applying cutoff is the dendrogram method.
+
+The dendogram for above clustering is:
+
+![Dend](https://miro.medium.com/max/700/1*3TV7NtpSSFoqeX-p9wr1xw.png)
+
+![Guide](https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec)
+
 ## 24_ K-means clustering
 
 ## 25_ Neural networks
