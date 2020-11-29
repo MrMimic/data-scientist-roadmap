@@ -485,3 +485,18 @@ There can be several classifiers possible but we choose the one with the maximum
 [Guide to SVM](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47)
 
 ## 30_Reinforcement Learning
+
+“Reinforcement learning (RL) is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the notion of cumulative reward.”
+
+To play a game, we need to make multiple choices and predictions during the course of the game to achieve success, so they can be called a multiple decision processes. This is where we need a type of algorithm called reinforcement learning algorithms. The class of algorithm is based on decision-making chains which let such algorithms to support multiple decision processes.
+
+The reinforcement algorithm can be used to reach a goal state from a starting state making decisions accordingly. 
+
+The reinforcement learning involves an agent which learns on its own. If it makes a correct or good move that takes it towards the goal, it is positively rewarded, else not. This way the agent learns.
+
+![reinforced](https://miro.medium.com/max/539/0*4d9KHTzW6xrWTBld)
+
+The above image shows reinforcement learning setup.
+
+[WIKI](https://en.wikipedia.org/wiki/Reinforcement_learning#:~:text=Reinforcement%20learning%20(RL)%20is%20an,supervised%20learning%20and%20unsupervised%20learning.)
+
