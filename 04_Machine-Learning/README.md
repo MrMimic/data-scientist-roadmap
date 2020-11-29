@@ -204,7 +204,7 @@ __3. XGBoost__
 
 __Adaboost__ algorithm works in the exact way describe. It creates a weak learner, also known as stumps, they are not full grown trees, but contain a single node based on which the classification is done. The misclassifications are observed and they are weighted more than the correctly classified ones while training the next weak learner. 
 
-__sklearn.ensemble.AdaBoostClassifier__ is used for the application of the classifier on real data.
+__sklearn.ensemble.AdaBoostClassifier__ is used for the application of the classifier on real data in python.
 
 ![adaboost](https://ars.els-cdn.com/content/image/3-s2.0-B9780128177365000090-f09-18-9780128177365.jpg)
 
@@ -231,7 +231,7 @@ Overall the equation becomes:
 __0.5 (Provided by the first learner) + _alpha_ X (The error provided by the second tree or learner.)+ _alpha_ X (The error provided by the third tree or learner.)+.............__
 
 
-__sklearn.ensemble.GradientBoostingClassifier__ used to apply gradient boosting
+__sklearn.ensemble.GradientBoostingClassifier__ used to apply gradient boosting in python
 
 ![GBM](https://www.elasticfeed.com/wp-content/uploads/09cc1168a39db0c0d6ea1c66d27ecfd3.jpg)
 
@@ -330,11 +330,34 @@ Logistic Regression is used for multiclass classification also. It uses softmax 
 [Guide to logistic Regression](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc)
 
 
-__sklearn.linear_model.LogisticRegression__ is used to apply logistic Regression.
+__sklearn.linear_model.LogisticRegression__ is used to apply logistic Regression in python.
 
 ## 20_ Ranking
 
 ## 21_ Linear regression
+
+Regression tasks deal with predicting the value of a dependent variable from a set of independent variables i.e, the provided features. Say, we want to predict the price of a car. So, it becomes a dependent variable say Y, and the features like engine capacity, top speed, class, and company become the independent variables, which helps to frame the equation to obtain the price.
+
+
+Now, if there is one feature say x. If the dependent variable y is linearly dependent on x, then it can be given by y=mx+c, where the m is the coefficient of the feature in the equation, c is the intercept or bias. Both M and C are the model parameters.
+
+We use a loss function or cost function called Mean Square error of (MSE). It is given by the square of the difference between the actual and the predicted value of the dependent variable.
+
+__MSE=1/2m * (Y_actual — Y_pred)²__
+
+If we observe the function we will see its a parabola, i.e, the function is convex in nature. This convex function is the principle used in Gradient Descent to obtain the value of the model parameters
+
+![loss](https://miro.medium.com/max/2238/1*Xgk6XI4kEcSmDaEAxqB1CA.png)
+
+The image shows the loss function.
+
+To get the correct estimate of the model parameters we use the method of __Gradient Descent__
+
+[Guide to Gradient Descent](https://towardsdatascience.com/an-introduction-to-gradient-descent-and-backpropagation-81648bdb19b2)
+
+[Guide to linear Regression](https://towardsdatascience.com/linear-regression-detailed-view-ea73175f6e86)
+
+__sklearn.linear_model.LinearRegression__ is used to apply linear regression in python
 
 ## 22_ Perceptron
 
