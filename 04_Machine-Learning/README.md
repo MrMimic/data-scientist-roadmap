@@ -273,8 +273,6 @@ When the predictors take up a continuous value and are not discrete, we assume t
 
 It links guassian distribution and Bayes theorem. 
 
-![knn](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/46117/versions/4/screenshot.jpg)
-
 Resources:
 
 [GUIDE](https://youtu.be/H3EjCKtlVog)
@@ -291,11 +289,15 @@ In K-NN classification algorithm, the point to classify is plotted on the featur
 
 If the dataset is very large, we can use a large k. The large k is less effected by noise and generates smooth boundaries. For small dataset, a small k must be used. A small k helps to notice the variation in boundaries better.
 
+![knn](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/46117/versions/4/screenshot.jpg)
+
 Resource:
 
 [GUIDE](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
 ## 19_ Logistic regression
+
+
 
 ## 20_ Ranking
 
