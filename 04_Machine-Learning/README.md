@@ -213,6 +213,32 @@ Reources:
 [Understanding](https://blog.paperspace.com/adaboost-optimizer/#:~:text=AdaBoost%20is%20an%20ensemble%20learning,turn%20them%20into%20strong%20ones.)
 
 
+__Gradient Boosting__ algorithm starts with a node giving 0.5 as output for both classification and regression. It serves as the first stump or weak learner. We then observe the Errors in predictions. Now, we create other learners or decision trees to actually predict the errors based on the conditions. The errors are called Residuals. Our final output is:
+
+__0.5 (Provided by the first learner) + The error provided by the second tree or learner.__
+
+Now, if we use this method, it learns the predictions too tightly, and loses generalization. In order to avoid that gradient boosting uses a learning parameter _alpha_. 
+
+So, the final results after two learners is obtained as:
+
+__0.5 (Provided by the first learner) + _alpha_ X (The error provided by the second tree or learner.)__
+
+We can see that using the added portion we take a small leap towards the correct results. We continue adding learners until the point we are very close to the actual value given by the training set.
+
+Overall the equation becomes:
+
+
+__0.5 (Provided by the first learner) + _alpha_ X (The error provided by the second tree or learner.)+ _alpha_ X (The error provided by the third tree or learner.)+.............__
+
+
+__sklearn.ensemble.GradientBoostingClassifier__ used to apply gradient boosting
+
+![GBM](https://www.elasticfeed.com/wp-content/uploads/09cc1168a39db0c0d6ea1c66d27ecfd3.jpg)
+
+Resource:
+
+[Guide](https://medium.com/mlreview/gradient-boosting-from-scratch-1e317ae4587d) 
+
 ## 17_ Naïves Bayes classifiers
 
 ## 18_ K-Nearest neighbor
