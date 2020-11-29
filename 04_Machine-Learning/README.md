@@ -468,4 +468,20 @@ It collects user feedbacks on different items and uses them for recommendations.
 
 ## 29_ Support Vector Machine
 
+Support vector machines are used for both Classification and Regressions. 
+
+SVM uses a margin around its classifier or regressor. The margin provides an extra robustness and accuracy to the model and its performance.  
+
+![SVM](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/SVM_margin.png/300px-SVM_margin.png)
+
+The above image describes a SVM classifier. The Red line is the actual classifier and the dotted lines show the boundary. The points that lie on the boundary actually decide the Margins. They support the classifier margins, so they are called __Support Vectors__.
+
+The distance between the classifier and the nearest points is called __Marginal Distance__.
+
+There can be several classifiers possible but we choose the one with the maximum marginal distance. So, the marginal distance and the support vectors help to choose the best classifier.
+
+[Official Documentation from Sklearn](https://scikit-learn.org/stable/modules/svm.html)
+
+[Guide to SVM](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47)
+
 ## 30_Reinforcement Learning
