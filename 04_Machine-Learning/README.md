@@ -265,7 +265,15 @@ Now, we calculate the probability of a mail being a spam mail using the occurren
 
 #### Gaussian Naive Bayes
 
+When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution.
 
+![gnb](https://miro.medium.com/max/422/1*AYsUOvPkgxe3j1tEj2lQbg.gif)
+
+It links guassian distribution and Bayes theorem. 
+
+Resources:
+
+[GUIDE](https://youtu.be/H3EjCKtlVog)
 
 ## 18_ K-Nearest neighbor
 
