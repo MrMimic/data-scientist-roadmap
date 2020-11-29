@@ -297,7 +297,40 @@ Resource:
 
 ## 19_ Logistic regression
 
+Regression is one of the most important concepts used in machine learning.
 
+[Guide to regression](https://towardsdatascience.com/a-deep-dive-into-the-concept-of-regression-fb912d427a2e)
+
+Logistic Regression is the most used classification algorithm for linearly seperable datapoints. Logistic Regression is used when the dependent variable is categorical. 
+
+It uses the linear regression equation:
+
+__Y= w1x1+w2x2+w3x3……..wkxk__
+
+in a modified format:
+
+__Y= 1/ 1+e^-(w1x1+w2x2+w3x3……..wkxk)__
+
+This modification ensures the value always stays between 0 and 1. Thus, making it feasible to be used for classification.
+
+The above equation is called __Sigmoid__ function. The function looks like:
+
+![Logreg](https://miro.medium.com/max/700/1*HXCBO-Wx5XhuY_OwMl0Phw.png)
+
+The loss fucnction used is called logloss or binary cross-entropy.
+
+__Loss= —Y_actual. log(h(x)) —(1 — Y_actual.log(1 — h(x)))__
+
+If Y_actual=1, the first part gives the error, else the second part.
+
+![loss](https://miro.medium.com/max/700/1*GZiV3ph20z0N9QSwQTHKqg.png)
+
+Logistic Regression is used for multiclass classification also. It uses softmax regresssion or One-vs-all logistic regression.
+
+[Guide to logistic Regression](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc)
+
+
+__sklearn.linear_model.LogisticRegression__ is used to apply logistic Regression.
 
 ## 20_ Ranking
 
