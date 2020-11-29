@@ -399,6 +399,21 @@ The dendogram for above clustering is:
 
 ## 24_ K-means clustering
 
+The algorithm initially creates K clusters randomly using N data points and finds the mean of all the point values in a cluster for each cluster. So, for each cluster we find a central point or centroid calculating the mean of the values of the cluster. Then the algorithm calculates the sum of squared error (SSE) for each cluster. SSE is used to measure the quality of clusters. If a cluster has large distances between the points and the center, then the SSE will be high and if we check the interpretation it allows only points in the close vicinity to create clusters.
+
+The algorithm works on the principle that the points lying close to a center of a cluster should be in that cluster. So, if a point x is closer to the center of cluster A than cluster B, then x will belong to cluster A. Thus a point enters a cluster and as even a single point moves from one cluster to another, the centroid changes and so does the SSE. We keep doing this until the SSE decreases and the centroid does not change anymore. After a certain number of shifts, the optimal clusters are found and the shifting stops as the centroids don’t change any more.
+
+The initial number of clusters ‘K’ is a user parameter.
+
+The image shows the method
+
+![Kmeans](https://miro.medium.com/max/1000/1*lZdpqQxhcGyqztp_mvXi4w.png)
+
+We have seen that for this type of clustering technique we need a user-defined parameter ‘K’ which defines the number of clusters that need to be created. Now, this is a very important parameter. To, find this parameter a number of methods are used. The most important and used method is the elbow method.
+For smaller datasets, k=(N/2)^(1/2) or the square root of half of the number of points in the distribution.
+
+[Guide](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
+
 ## 25_ Neural networks
 
 ## 26_ Sentiment analysis
