@@ -416,6 +416,18 @@ For smaller datasets, k=(N/2)^(1/2) or the square root of half of the number of 
 
 ## 25_ Neural networks
 
+Neural Networks are a set of interconnected layers of artificial neurons or nodes. They are frameworks that are modeled keeping in mind, the structure and working of the human brain. They are meant for predictive modeling and applications where they can be trained via a dataset. They are based on self-learning algorithms and predict based on conclusions and complex relations derived from their training sets of information.
+
+A typical Neural Network has a number of layers. The First Layer is called the Input Layer and The Last layer is called the Output Layer. The layers between the Input and Output layers are called Hidden Layers. It basically functions like a Black Box for prediction and classification. All the layers are interconnected and consist of numerous artificial neurons called Nodes.
+
+[Guide to nueral Networks](https://medium.com/ai-in-plain-english/neural-networks-overview-e6ea484a474e)
+
+Neural networks are too complex to work on Gradient Descent algorithms, so it works on the principles of Backproapagations and Optimizers.
+
+[Guide to Backpropagation](https://towardsdatascience.com/an-introduction-to-gradient-descent-and-backpropagation-81648bdb19b2)
+
+[Guide to optimizers](https://towardsdatascience.com/introduction-to-gradient-descent-weight-initiation-and-optimizers-ee9ae212723f)
+
 ## 26_ Sentiment analysis
 
 ## 27_ Collaborative filtering
