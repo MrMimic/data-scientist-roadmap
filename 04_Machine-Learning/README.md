@@ -249,6 +249,8 @@ Bayes theorem describes the probability of an event, based on prior knowledge of
 
 Where P(A|B) is the probabaility of occurrence of A knowing B already occurred and P(B|A) is the probability of occurrence of B knowing A occurred.
 
+[Scikit-learn Guide](https://github.com/abr-98/data-scientist-roadmap/edit/master/04_Machine-Learning/README.md)
+
 There are mostly two types of Naive Bayes:
 
 __1. Gaussian Naive Bayes__
@@ -271,11 +273,27 @@ When the predictors take up a continuous value and are not discrete, we assume t
 
 It links guassian distribution and Bayes theorem. 
 
+![knn](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/46117/versions/4/screenshot.jpg)
+
 Resources:
 
 [GUIDE](https://youtu.be/H3EjCKtlVog)
 
 ## 18_ K-Nearest neighbor
+
+K-nearest neighbour algorithm is the most basic and still essential algorithm. It is a memory based approach and not a model based one. 
+
+KNN is used in both supervised and unsupervised learning. It simply locates the data points across the feature space and used distance as a similarity metrics.
+
+Lesser the distance between two data points, more similar the points are. 
+
+In K-NN classification algorithm, the point to classify is plotted on the feature space and classified as the class of its nearest K-neighbours. K is the user parameter. It gives the measure of how many points we should consider while deciding the label of the point concerned. If K is more than 1 we consider the label that is in majority.
+
+If the dataset is very large, we can use a large k. The large k is less effected by noise and generates smooth boundaries. For small dataset, a small k must be used. A small k helps to notice the variation in boundaries better.
+
+Resource:
+
+[GUIDE](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
 
 ## 19_ Logistic regression
 
