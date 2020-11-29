@@ -241,6 +241,32 @@ Resource:
 
 ## 17_ Naïves Bayes classifiers
 
+The Naive Bayes classifiers are a collection of classification algorithms based on __Bayes’ Theorem.__
+
+Bayes theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event. It is given by:
+
+![bayes](https://wikimedia.org/api/rest_v1/media/math/render/svg/87c061fe1c7430a5201eef3fa50f9d00eac78810)
+
+Where P(A|B) is the probabaility of occurrence of A knowing B already occurred and P(B|A) is the probability of occurrence of B knowing A occurred.
+
+There are mostly two types of Naive Bayes:
+
+__1. Gaussian Naive Bayes__
+
+__2. Multinomial Naive Bayes.__
+
+#### Multinomial Naive Bayes
+
+The method is used mostly for document classification. For example, classifying an article as sports article or say film magazine. It is also used for differentiating actual mails from spam mails. It uses the frequency of words used in different magazine to make a decision.
+
+For example, the word "Dear" and "friends" are used a lot in actual mails and "offer" and "money" are used a lot in "Spam" mails. It calculates the prorbability of the occurrence of the words in case of actual mails and spam mails using the training examples. So, the probability of occurrence of "money" is much higher in case of spam mails and so on. 
+
+Now, we calculate the probability of a mail being a spam mail using the occurrence of words in it. 
+
+#### Gaussian Naive Bayes
+
+
+
 ## 18_ K-Nearest neighbor
 
 ## 19_ Logistic regression
