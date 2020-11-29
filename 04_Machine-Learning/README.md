@@ -395,7 +395,7 @@ The dendogram for above clustering is:
 
 ![Dend](https://miro.medium.com/max/700/1*3TV7NtpSSFoqeX-p9wr1xw.png)
 
-![Guide](https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec)
+[Guide](https://towardsdatascience.com/understanding-the-concept-of-hierarchical-clustering-technique-c6e8243758ec)
 
 ## 24_ K-means clustering
 
