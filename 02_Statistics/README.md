@@ -46,7 +46,35 @@ The median is the value __separating the higher half of a data sample, a populat
 
 #### Utilization
     
-    import numpy
+    import numpy as np
+    
+#### Averages and variances using numpy
+|                                        Code                                          |                 Return                  |
+|--------------------------------------------------------------------------------------|-----------------------------------------|
+|`np.median(a, axis=None, out=None, overwrite_input=False, keepdims=False)`            |   Compute the median along the specified axis |
+|`np.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)`  |   Compute the arithmetic mean along the specified axis |
+|`np.std(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>)`            |    Compute the standard deviation along the specified axis. |
+|`np.var(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>)`            |      Compute the variance along the specified axis  |
+
+#### Code Example
+input
+```
+import numpy as np                                    #import the numpy package
+a = np.array([1,2,3,4,5,6,7,8,9])                     #Create a numpy array
+print ('median = ' , np.median(a) )                   #Calculate the median of the array
+print ('mean = '  , np.mean (a))                      #Calculate the mean of the array
+print ('standard deviation = ' , np.std(a) )          #Calculate the standarddeviation of the array
+print ('variance = ' , np.var (a) )                   #Calculate the variance of the array
+```
+output
+```
+median =  5.0
+mean =  5.0
+standard deviation =  2.581988897471611
+variance =  6.666666666666667
+```
+
+you can found more [here](https://numpy.org/doc/stable/reference/routines.statistics.html) on how to apply the Descriptive statistics in Python using numpy package.
 
 ## 3_ Exploratory data analysis
 
