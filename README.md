@@ -18,4 +18,4 @@ For the moment, a lot is __got on wikipedia__ (except for codes, always handmade
 * Always comment your code.
 * Please respect topology for filenames.
 * There's one README for each directory.
-* Also, could be great to share useful links or ressources in README files.
+* Also, could be great to share useful links or resources in README files.
