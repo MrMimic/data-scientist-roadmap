@@ -40,7 +40,7 @@ ggplot2 is a plotting system for R, based on the grammar of graphics, which trie
 
 ### About
 
-Histograms and pie are 2 types of graphes used to visualize frequencies. 
+Histograms and pie are 2 types of graphes used to visualize frequencies.
 
 Histogram is showing the distribution of these frequencies over classes, and pie the relative proportion of this frequencies in a 100% circle.
 
@@ -128,7 +128,7 @@ According to the plot, we can clearly find that the sales reach a peak in summer
 
 This is a JavaScript library, allowing you to create a huge number of different figure easily.
 
-https://d3js.org/
+<https://d3js.org/>
 
     D3.js is a JavaScript library for manipulating documents based on data. 
     D3 helps you bring data to life using  HTML, SVG, and CSS. 

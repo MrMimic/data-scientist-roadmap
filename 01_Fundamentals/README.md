@@ -1,6 +1,5 @@
 # 1_ Fundamentals
 
-
 ## 1_ Matrices & Algebra fundamentals
 
 ### About
@@ -17,7 +16,6 @@ There are a number of basic operations that can be applied to modify matrices:
 * [Scalar Multiplication](https://en.wikipedia.org/wiki/Scalar_multiplication)
 * [Transposition](https://en.wikipedia.org/wiki/Transpose)
 * [Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-
 
 ## 2_ Hash function, binary tree, O(n)
 
@@ -59,11 +57,11 @@ In SQL language, a natural junction between two tables will be done if :
 
 * At least one column has the same name in both tables
 * Theses two columns have the same data type
-    * CHAR (character)
-    * INT (integer)
-    * FLOAT (floating point numeric data)
-    * VARCHAR (long character chain)
-    
+  * CHAR (character)
+  * INT (integer)
+  * FLOAT (floating point numeric data)
+  * VARCHAR (long character chain)
+
 #### mySQL request
 
         SELECT <COLUMNS>
@@ -115,6 +113,7 @@ The LEFT JOIN keyword returns all records from the left table (table1), and the 
 ### Right join
 
 The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). The result is NULL from the left side, when there is no match.
+
 #### Request
 
       SELECT column_name(s)
@@ -126,7 +125,7 @@ The RIGHT JOIN keyword returns all records from the right table (table2), and th
 ## 5_ CAP theorem
 
 It is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
- 
+
 * Every read receives the most recent write or an error.
 * Every request receives a (non-error) response – without guarantee that it contains the most recent write.
 * The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
@@ -157,7 +156,7 @@ A series is a series of data points ordered.
 
 ## 9_ Sharding
 
-*Sharding* is **horizontal(row wise) database partitioning** as opposed to **vertical(column wise) partitioning** which is *Normalization*
+*Sharding* is __horizontal(row wise) database partitioning__ as opposed to __vertical(column wise) partitioning__ which is *Normalization*
 
 Why use Sharding?
 
@@ -170,14 +169,14 @@ Why use Sharding?
 
 4. Horizontal Scaling
     * Involves dividing the dataset and load over multiple servers, adding additional servers to increase capacity as required
-    * While the overall speed or capacity of a single machine may not be high, each machine handles a subset of the overall workload, potentially providing better efficiency than a single high-speed high-capacity server. 
+    * While the overall speed or capacity of a single machine may not be high, each machine handles a subset of the overall workload, potentially providing better efficiency than a single high-speed high-capacity server.
     * Idea is to use concepts of Distributed systems to achieve scale
     * But it comes with same tradeoffs of increased complexity that comes hand in hand with distributed systems.
     * Many Database systems provide Horizontal scaling via Sharding the datasets.
 
 ## 10_ OLAP
 
-Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing. 
+Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing.
 
 OLAP is part of the __broader category of business intelligence__, which also encompasses relational database, report writing and data mining. Typical applications of OLAP include ___business reporting for sales, marketing, management reporting, business process management (BPM), budgeting and forecasting, financial reporting and similar areas, with new applications coming up, such as agriculture__.
 
@@ -205,66 +204,66 @@ The term OLAP was created as a slight modification of the traditional database t
 ### JSON
 
 JSON is a language-independent data format. Example describing a person:
-	
-	{
-	  "firstName": "John",
-	  "lastName": "Smith",
-	  "isAlive": true,
-	  "age": 25,
-	  "address": {
-	    "streetAddress": "21 2nd Street",
-	    "city": "New York",
-	    "state": "NY",
-	    "postalCode": "10021-3100"
-	  },
-	  "phoneNumbers": [
-	    {
-	      "type": "home",
-	      "number": "212 555-1234"
-	    },
-	    {
-	      "type": "office",
-	      "number": "646 555-4567"
-	    },
-	    {
-	      "type": "mobile",
-	      "number": "123 456-7890"
-	    }
-	  ],
-	  "children": [],
-	  "spouse": null
-	}
+ 
+ {
+   "firstName": "John",
+   "lastName": "Smith",
+   "isAlive": true,
+   "age": 25,
+   "address": {
+     "streetAddress": "21 2nd Street",
+     "city": "New York",
+     "state": "NY",
+     "postalCode": "10021-3100"
+   },
+   "phoneNumbers": [
+     {
+       "type": "home",
+       "number": "212 555-1234"
+     },
+     {
+       "type": "office",
+       "number": "646 555-4567"
+     },
+     {
+       "type": "mobile",
+       "number": "123 456-7890"
+     }
+   ],
+   "children": [],
+   "spouse": null
+ }
 
 ## XML
 
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
- 
- 	<CATALOG>
-	  <PLANT>
-	    <COMMON>Bloodroot</COMMON>
-	    <BOTANICAL>Sanguinaria canadensis</BOTANICAL>
-	    <ZONE>4</ZONE>
-	    <LIGHT>Mostly Shady</LIGHT>
-	    <PRICE>$2.44</PRICE>
-	    <AVAILABILITY>031599</AVAILABILITY>
-	  </PLANT>
-	  <PLANT>
-	    <COMMON>Columbine</COMMON>
-	    <BOTANICAL>Aquilegia canadensis</BOTANICAL>
-	    <ZONE>3</ZONE>
-	    <LIGHT>Mostly Shady</LIGHT>
-	    <PRICE>$9.37</PRICE>
-	    <AVAILABILITY>030699</AVAILABILITY>
-	  </PLANT>
-	  <PLANT>
-	    <COMMON>Marsh Marigold</COMMON>
-	    <BOTANICAL>Caltha palustris</BOTANICAL>
-	    <ZONE>4</ZONE>
-	    <LIGHT>Mostly Sunny</LIGHT>
-	    <PRICE>$6.81</PRICE>
-	    <AVAILABILITY>051799</AVAILABILITY>
-	  </PLANT>
-	</CATALOG>
+
+  <CATALOG>
+   <PLANT>
+     <COMMON>Bloodroot</COMMON>
+     <BOTANICAL>Sanguinaria canadensis</BOTANICAL>
+     <ZONE>4</ZONE>
+     <LIGHT>Mostly Shady</LIGHT>
+     <PRICE>$2.44</PRICE>
+     <AVAILABILITY>031599</AVAILABILITY>
+   </PLANT>
+   <PLANT>
+     <COMMON>Columbine</COMMON>
+     <BOTANICAL>Aquilegia canadensis</BOTANICAL>
+     <ZONE>3</ZONE>
+     <LIGHT>Mostly Shady</LIGHT>
+     <PRICE>$9.37</PRICE>
+     <AVAILABILITY>030699</AVAILABILITY>
+   </PLANT>
+   <PLANT>
+     <COMMON>Marsh Marigold</COMMON>
+     <BOTANICAL>Caltha palustris</BOTANICAL>
+     <ZONE>4</ZONE>
+     <LIGHT>Mostly Sunny</LIGHT>
+     <PRICE>$6.81</PRICE>
+     <AVAILABILITY>051799</AVAILABILITY>
+   </PLANT>
+ </CATALOG>
 
 ## 15_ NoSQL
 
@@ -281,11 +280,12 @@ __Commonly used noSQL stacks__: Cassandra, MongoDB, Redis, Oracle noSQL ...
 __Reg__ ular __ex__ pressions (__regex__) are commonly used in informatics.
 
 It can be used in a wide range of possibilities :
+
 * Text replacing
 * Extract information in a text (email, phone number, etc)
 * List files with the .txt extension ..
 
-http://regexr.com/ is a good website for experimenting on Regex.
+<http://regexr.com/> is a good website for experimenting on Regex.
 
 ### Utilisation
 
@@ -296,5 +296,3 @@ To use them in [Python](https://docs.python.org/3/library/re.html), just import:
 ## 17_ Vendor landscape
 
 ## 18_ Env Setup
-
-

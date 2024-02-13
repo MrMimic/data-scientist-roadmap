@@ -1,16 +1,13 @@
-#!/usr/bin/python3
+""" 1_ Python basics """
 
-''' 1_ Python basics '''
+# Print something
+print("Hello, world")
 
-# Print something 
-print('Hello, world')
-
-# Assign a variable
+# Assign a variable
 a = 23
-b = 'Hi guys, i\'m a text variable'
-print('This is my variable: {}'.format(b))
+b = "Hi guys, i'm a text variable"
+print(f"This is my variable: {b}")
 
-# Mathematics
+# Mathematics
 c = (a + 2) * (245 / 23)
-print('This is mathe-magic: {}'.format(c))
-
+print(f"This is mathe-magic: {c}")

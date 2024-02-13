@@ -2,7 +2,7 @@
 
 ## 1_ Python Basics
 
-### About
+### About Python
 
 Python is a high-level programming langage. I can be used in a wide range of works.
 
@@ -21,7 +21,7 @@ Most of informatics systems already support Python, without installing anything.
 
 ## 3_ R setup / R studio
 
-### About
+### About R
 
 R is a programming language specialized in statistics and mathematical visualizations.
 
@@ -31,9 +31,9 @@ I can be used withs manually created scripts launched in the terminal, or direct
 
 #### Linux
 
-	sudo apt-get install r-base
-	
-	sudo apt-get install r-base-dev
+ sudo apt-get install r-base
+ 
+ sudo apt-get install r-base-dev
 
 #### Windows
 
@@ -85,11 +85,11 @@ Polls, surveys of data miners, and studies of scholarly literature databases sho
 CSV is a format of __tabular data__ comonly used in data science. Most of structured data will come in such a format.
 
 To __open a CSV file__ in Python, just open the file as usual :
-	
-	raw_file = open('file.csv', 'r')
-	
+ 
+ raw_file = open('file.csv', 'r')
+ 
 * 'r': Reading, no modification on the file is possible
-* 'w': Writing, every modification will erease the file 
+* 'w': Writing, every modification will erease the file
 * 'a': Adding, every modification will be made at the end of the file
 
 ### How to read it ?
@@ -113,10 +113,10 @@ A function is helpful to execute redondant actions.
 
 First, define the function:
 
-	def MyFunction(number):
-		"""This function will multiply a number by 9"""
-		number = number * 9
-		return number
+ def MyFunction(number):
+  """This function will multiply a number by 9"""
+  number = number * 9
+  return number
 
 ## 20_ Factor analysis
 
@@ -127,17 +127,17 @@ Python actually has two mainly used distributions. Python2 and python3.
 ### Install pip
 
 Pip is a library manager for Python. Thus, you can easily install most of the packages with a one-line command. To install pip, just go to a terminal and do:
-	
-	# __python2__
-	sudo apt-get install python-pip
-	# __python3__
-	sudo apt-get install python3-pip
-	
+ 
+ # __python2__
+ sudo apt-get install python-pip
+ # __python3__
+ sudo apt-get install python3-pip
+ 
 You can then install a library with [pip](https://pypi.python.org/pypi/pip?) via a terminal doing:
 
-	# __python2__ 
-	sudo pip install [PCKG_NAME]
-	# __python3__ 
-	sudo pip3 install [PCKG_NAME]
+ # __python2__ 
+ sudo pip install [PCKG_NAME]
+ # __python3__ 
+ sudo pip3 install [PCKG_NAME]
 
 You also can install it directly from the core (see 21_install_pkgs.py)
