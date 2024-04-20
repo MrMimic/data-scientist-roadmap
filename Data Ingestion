@@ -1,0 +1,47 @@
+"""
+data_ingestion.py
+
+This script demonstrates basic data ingestion techniques for loading data into a data processing pipeline.
+"""
+
+import pandas as pd
+from sqlalchemy import create_engine
+
+# Define database connection parameters
+DB_USERNAME = ''
+DB_PASSWORD = ''
+DB_HOST = 'localhost'
+DB_PORT = '5432'  
+DB_NAME = 'your_database'
+
+
+CSV_FILE_PATH = 'data.csv'
+JSON_FILE_PATH = 'data.json'
+
+def ingest_data_from_csv():
+    """Ingest data from a CSV file"""
+    try:
+        data = pd.read_csv(CSV_FILE_PATH)
+        # Perform any necessary data cleaning or preprocessing
+        # Connect to database and load data
+        engine = create_engine(f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+        data.to_sql('table_name', engine, if_exists='replace', index=False)
+        print("Data successfully ingested from CSV file.")
+    except Exception as e:
+        print(f"Error ingesting data from CSV file: {e}")
+
+def ingest_data_from_json():
+    """Ingest data from a JSON file"""
+    try:
+        data = pd.read_json(JSON_FILE_PATH)
+        # Perform any necessary data cleaning or preprocessing
+        # Connect to database and load data
+        engine = create_engine(f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+        data.to_sql('table_name', engine, if_exists='replace', index=False)
+        print("Data successfully ingested from JSON file.")
+    except Exception as e:
+        print(f"Error ingesting data from JSON file: {e}")
+
+if __name__ == "__main__":
+    ingest_data_from_csv()
+    ingest_data_from_json()
