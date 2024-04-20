@@ -1,0 +1,64 @@
+"""
+data_preprocessing.py
+
+This script demonstrates advanced data preprocessing techniques for cleaning and transforming data.
+"""
+
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, RobustScaler
+from sklearn.impute import SimpleImputer
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split
+
+# Define file paths
+CSV_FILE_PATH = 'data.csv'
+
+def preprocess_data():
+    """Preprocess data"""
+    try:
+        # Load data from CSV file
+        data = pd.read_csv(CSV_FILE_PATH)
+        
+        # Split data into features and target variable
+        X = data.drop(columns=['target_column'])
+        y = data['target_column']
+        
+        # Split data into training and testing sets
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        
+        # Define preprocessing steps for numerical and categorical columns
+        numeric_features = ['numerical_column_1', 'numerical_column_2']
+        numeric_transformer = Pipeline(steps=[
+            ('imputer', SimpleImputer(strategy='mean')),
+            ('scaler', RobustScaler())
+        ])
+        
+        categorical_features = ['categorical_column']
+        categorical_transformer = Pipeline(steps=[
+            ('imputer', SimpleImputer(strategy='most_frequent')),
+            ('onehot', OneHotEncoder(handle_unknown='ignore'))
+        ])
+        
+        # Combine preprocessing steps for all columns
+        preprocessor = ColumnTransformer(
+            transformers=[
+                ('num', numeric_transformer, numeric_features),
+                ('cat', categorical_transformer, categorical_features)
+            ])
+        
+        # Preprocess data using the defined pipeline
+        X_train_processed = preprocessor.fit_transform(X_train)
+        X_test_processed = preprocessor.transform(X_test)
+        
+        # Perform other data cleaning and transformation steps as needed
+        
+        # Optionally, train machine learning models using preprocessed data
+        
+        print("Data preprocessing completed successfully.")
+    except Exception as e:
+        print(f"Error preprocessing data: {e}")
+
+if __name__ == "__main__":
+    # Example usage
+    preprocess_data()
