@@ -106,6 +106,7 @@ To read such a file row by row, you can use :
 ## 17_ Subsetting data
 
 ## 18_ Manipulate data frames
+*
 
 ## 19_ Functions
 
