@@ -1,0 +1,16 @@
+[tool.poetry]
+package-mode = false
+description = "Some tutorial coming with the data science roadmap."
+authors = ["Emeric <emeric.dynomant@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

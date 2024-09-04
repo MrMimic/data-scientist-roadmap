@@ -66,11 +66,7 @@ class Perceptron(object):
                     self.bias = self.bias + self.l_rate * error
                     for i in range(len(row) - 1):
                         weights[i] = weights[i] + self.l_rate * error * row[i]
-            print(
-                "epoch: {}, lrate: {}, errors: {}".format(
-                    epoch, self.l_rate, epoch_errors
-                )
-            )
+            print(f"epoch: {epoch}, lrate: {self.l_rate}, errors: {epoch_errors}")
 
         plt.plot(global_errors)
         plt.ylim(-1, 2)
