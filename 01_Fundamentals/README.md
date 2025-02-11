@@ -296,3 +296,54 @@ To use them in [Python](https://docs.python.org/3/library/re.html), just import:
 ## 17_ Vendor landscape
 
 ## 18_ Env Setup
+
+### What is Python Virtual Environment?
+
+A Python Virtual Environment is an isolated space where you can work on your Python projects, separately from your system-installed Python.  This is one of the most important tools that most Python developers use.
+
+### Why Use Virtual Environments?
+- Avoids dependency conflicts.
+- Allows working on multiple projects with different dependencies.
+- Keeps system Python clean and unmodified.
+
+### Create a Virtual Environment
+Virtual environments are created by executing the `venv` module.
+
+On Linux:
+```
+python3 -m venv myenv
+```
+On Windows:
+```
+python -m venv myenv
+```
+This creates a folder named `myenv`, which contains the virtual environment. You can name the folder to anything you like.
+
+### Activate the Virtual Environment
+On Linux:
+```
+source myenv/bin/activate
+```
+On Windows:
+- Command Prompt (cmd):
+```
+myenv\Scripts\activate
+```
+- PowerShell:
+```
+myenv\Scripts\Activate.ps1
+```
+If you get a security error, run this command first:
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Now you can install required packages in this Virtual Environment using `pip`.
+
+### Deactivate the Virtual Environment
+When you’re done, deactivate the virtual environment by running:
+```
+deactivate
+```
+### Reactivating the Virtual Environment Later
+To use the environment again, navigate to the project folder and use the same command that is used to activate the virtual environment.
